@@ -15,7 +15,7 @@ description: Learn to do, Learn  by doing
         <span class="description">{{ post.description }}</span>
       </p>
         {% for tag in post.tags %}
-        <a href="/search/?tag={{ tag | escape }}">{{ tag }}</a>
+        <a href="/search?tag={{ tag | escape }}">{{ tag }}</a>
         {% endfor %}
       <p>
     </li>

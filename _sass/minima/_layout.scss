@@ -235,3 +235,29 @@
     }
   }
 }
+
+/* tags */
+.tags {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-transform: lowercase;
+
+  li {
+    padding: 0 4px;
+    font-size: 0.9em;
+
+    &:first-child {
+      padding-left: 0;
+    }
+
+    &:after {
+      content: ",";
+    }
+
+    &:last-child:after {
+      content: "";
+    }
+  }
+}

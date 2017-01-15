@@ -50,3 +50,6 @@ paginate_path: "/blog/page:num/"
 # Optionally, if you have a Disqus account, you can tell Jekyll to use it to show a comments section below each post.
 disqus:
     shortname: "karais89-github-io"
+
+# To enable Google Anaytics, add the following lines to your Jekyll site:
+google_analytics: "UA-59335977-2"

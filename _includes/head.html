@@ -13,7 +13,12 @@
   {% if jekyll.environment == 'production' and site.google_analytics %}
   {% include google-analytics.html %}
   {% endif %}
+  <!-- seo tag https://github.com/jekyll/jekyll-seo-tag -->
   {% seo %}
+  <!-- 404 page redirect -->
+  {% if page.url == "/404.html" %}
+      <meta http-equiv="refresh" content="5; url=/">
+  {% endif %}
 </head>
 
 <!-- bigfoot plugin Load -->

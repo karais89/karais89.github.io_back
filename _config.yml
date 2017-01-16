@@ -24,7 +24,7 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: ""
 
 # the base hostname & protocol for your site, e.g. http://example.com
-url: "https://karais89.github.io/"
+url: "https://karais89.github.io"
 
 twitter_username: jekyllrb
 github_username:  jekyll
@@ -39,6 +39,7 @@ gems:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-seo-tag
 
 exclude:
   - Gemfile

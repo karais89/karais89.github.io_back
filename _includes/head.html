@@ -25,6 +25,7 @@
 <script type="text/javascript" src="/js/jquery-2.2.4.min.js"></script>
 <script type="text/javascript" src="/js/bigfoot.js"></script>
 <script type="text/javascript">
+  // bigfoot
   var bigfoot = $.bigfoot(
       {
       actionOriginalFN: "ignore",
@@ -32,3 +33,19 @@
       }
   );
 </script>
+
+<!-- external_links -->
+<script type="text/javascript">
+  $(document).ready(function() {
+    $("a[href^=http]").each(function()
+    {
+      if(this.href.indexOf(location.hostname) == -1)
+      {
+        $(this).attr({ target: "_blank" });
+      }
+    })
+  });
+</script>
+
+<!-- alexpearce tag search -->
+<script src="{{ site.baseurl }}/js/alexpearce.js" charset="utf-8"></script>

@@ -118,6 +118,7 @@ tags: [programming]
 
 ----
 관련 글
+
 - [프로그래밍 스킬을 향상시키는 10가지 방법](http://iamyour.tistory.com/entry/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EC%8A%A4%ED%82%AC%EC%9D%84-%ED%96%A5%EC%83%81%EC%8B%9C%ED%82%A4%EB%8A%94-10%EA%B0%80%EC%A7%80-%EB%B0%A9%EB%B2%95)
 - [동기에게 보내는 편지 : 프로그래밍 실력을 향상 시키는 방법](http://tasyblue.blogspot.kr/2015/03/blog-post.html)
 - [게임 프로그래머 실력향상법 자료조사](http://www.slideshare.net/ddayinhwang9/ss-61262239)

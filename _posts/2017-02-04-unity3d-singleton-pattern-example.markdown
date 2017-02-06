@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Unity3d 에서 Singleton 패턴을 사용하는 방법"
+title: "Unity3d Singleton 패턴을 사용하는 방법"
 date: "2017-02-04 20:07:46 +0900"
+tags: [unity3d]
 ---
 
 ## 01. 싱글톤 패턴

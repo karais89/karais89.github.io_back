@@ -19,7 +19,7 @@ tags: [unity3d]
 
 Unity 게임을위한 빌드 파이프 라인[^1]을 자동화하는 서비스입니다.
 
-[^1] : 시스템의 효율을 높이기 위해 명령문을 수행하면서 몇 가지의 특수한 작업들을 병렬 처리하도록 설계된 하드웨어.
+[^1]: 시스템의 효율을 높이기 위해 명령문을 수행하면서 몇 가지의 특수한 작업들을 병렬 처리하도록 설계된 하드웨어.
 
 ### Cloud Build를 사용해야 하는 이유는 무엇인가?
 
@@ -83,7 +83,7 @@ Unity Cloud Build는 소스 제어 저장소 (예 : Git, Subversion, Mercurial, 
 
 SourceTree를 다운로드하여 설치하려면 [www.sourcetreeapp.com](http://www.sourcetreeapp.com)을 방문하십시오.
 
-![Download Sourcetree](../images/unity3d/cloud_build/download_sourcetree_0.png)
+![Download Sourcetree](/images/unity3d/cloud_build/download_sourcetree_0.png)
 
 ### 02. Bitbucket 계정 만들기
 
@@ -93,33 +93,33 @@ SourceTree를 다운로드하여 설치하려면 [www.sourcetreeapp.com](http://
 
 우리는 SourceTree로 저장소를 생성 할 것입니다.
 
-![Create Your Repo](../images/unity3d/cloud_build/create_your_repo.png)
+![Create Your Repo](/images/unity3d/cloud_build/create_your_repo.png)
 
 ### 03. SourceTree를 사용하여 Bitbucket에 저장소를 만듭니다.
 
 SourceTree를 열고 Bitbucket 로그인 사용자 이름과 암호를 입력하라는 메시지가 나타나면 입력하십시오.
 
-![Create a repository on bitbucket](../images/unity3d/cloud_build/create_a_repository_on_bitbucket.png)
+![Create a repository on bitbucket](/images/unity3d/cloud_build/create_a_repository_on_bitbucket.png)
 
 로그인하면 repo를 "Clone"하라는 메시지가 나타납니다 ("Clone a Repo"는 모든 관련 파일을 저장소에서 로컬 시스템으로 복사하는 것입니다).
 
 Bitbucket 계정과 연결된 Repo를 만들지 않은 경우 목록이 비어 있어야합니다. "Skip Setup"을 클릭하십시오.
 
-![Skip Setup](../images/unity3d/cloud_build/04-skip_setup.png)
+![Skip Setup](/images/unity3d/cloud_build/04-skip_setup.png)
 
 "Skip Setup"을 클릭하면 Repository Browser 창이 나타납니다.
 
-![Repository Browser](../images/unity3d/cloud_build/05-repository_browser.png)
+![Repository Browser](/images/unity3d/cloud_build/05-repository_browser.png)
 
 이전에 생성 한 Bitbucket 계정을 사용하여 원격 리포지토리를 만듭니다.
 
 Repository Browser에서 "+ New Repository"를 클릭하십시오. 드롭 다운 목록이 나타납니다. '원격 저장소 만들기'를 선택하십시오.
 
-![New Repository Options](../images/unity3d/cloud_build/06-new_repository_options.png)
+![New Repository Options](/images/unity3d/cloud_build/06-new_repository_options.png)
 
 "Create a remote repository" 창이 나타납니다.
 
-![Create A Remote Repository](../images/unity3d/cloud_build/07-create_a_remote_repository.png)
+![Create A Remote Repository](/images/unity3d/cloud_build/07-create_a_remote_repository.png)
 
 아래와 같은 설정으로 세팅합니다:
 
@@ -138,7 +138,7 @@ Repository Browser에서 "+ New Repository"를 클릭하십시오. 드롭 다운
 
 Repository Window에서 | Remote window에서 이전 단계에서 생성 한 Bitbucket 저장소를 클릭하십시오. 다음 프롬프트가 나타납니다.
 
-![Clone A Repository](../images/unity3d/cloud_build/09-clone_a_repository.png)
+![Clone A Repository](/images/unity3d/cloud_build/09-clone_a_repository.png)
 
 
 - Source URL: 있는 그대로 유지하고 나중에 기록해 두십시오. 나중에 Unity Cloud Build를 구성 할 때 사용하게됩니다.
@@ -150,13 +150,13 @@ Repository Window에서 | Remote window에서 이전 단계에서 생성 한 Bit
 
 그러면 Repository Window로 돌아 가게 됩니다. 로컬, 방금 작성한 저장소의 로컬 사본이 표시됩니다. 저장소는 비어 있습니다. 당신은 다음 단계에서 그것을 채울 것입니다.
 
-![Empty Repository](../images/unity3d/cloud_build/10-empty_repository.png)
+![Empty Repository](/images/unity3d/cloud_build/10-empty_repository.png)
 
 ### 05. 유니티 프로젝트로 로컬 레포 채우기
 
 Repository Window에서 | 로컬에서 repo를 더블 클릭하십시오. 메시지가 나타나면 이름과 이메일을 입력하십시오.
 
-![User Details](../images/unity3d/cloud_build/11-user_details.png)
+![User Details](/images/unity3d/cloud_build/11-user_details.png)
 
 이제 로컬 저장소를 채 웁니다.
 
@@ -164,11 +164,11 @@ Repository Window에서 | 로컬에서 repo를 더블 클릭하십시오. 메시
 
 다음 스크린 샷에서 단일 프로젝트 "MyFirstProject"가 로컬 리포지토리 폴더 "MyFirstUnityRepo"로 이동합니다
 
-![Populate Your Local Repository](../images/unity3d/cloud_build/12-populate_your_local_repository.png)
+![Populate Your Local Repository](/images/unity3d/cloud_build/12-populate_your_local_repository.png)
 
 로컬 repo를 채울 때 SourceTree는 자동으로 변경 사항을 감지하고 다음과 같이 업데이트합니다 :
 
-![First Repsoitory](../images/unity3d/cloud_build/13-first_repsoitory.png)
+![First Repsoitory](/images/unity3d/cloud_build/13-first_repsoitory.png)
 
 ### 06. Commit 과 Push 로컬 Repo를 원격 Repo로 푸시합니다.
 
@@ -180,19 +180,19 @@ Unity Cloud Build는 원격 저장소를 모니터링합니다. 이렇게하려�
 
 화면 상단의 "Commit"을 클릭하십시오. 메시지가 나타나면 이름과 이메일을 입력하십시오.
 
-![First Commit](../images/unity3d/cloud_build/14-first_commit.png)
+![First Commit](/images/unity3d/cloud_build/14-first_commit.png)
 
 Comment를 입력하고 "Commit"을 클릭하십시오.
 
-![First Commit 2](../images/unity3d/cloud_build/15-first_commit_2.png)
+![First Commit 2](/images/unity3d/cloud_build/15-first_commit_2.png)
 
 다음 메시지가 나타납니다. "There is nothing left to commit"
 
-![Nothing to commit](../images/unity3d/cloud_build/16-nothing_to_commit_0.png)
+![Nothing to commit](/images/unity3d/cloud_build/16-nothing_to_commit_0.png)
 
 커밋 된 모든 파일을 원격 저장소에 복사하려면 "Push"를 클릭하십시오.
 
-![Push](../images/unity3d/cloud_build/17-push.png)
+![Push](/images/unity3d/cloud_build/17-push.png)
 
 "확인"을 클릭하십시오. 업로드 프로세스가 시작됩니다.
 
@@ -202,7 +202,7 @@ Comment를 입력하고 "Commit"을 클릭하십시오.
 
 repo 페이지에서 브라우저의 주소 표시 줄로 이동하여 표시되는 URL / 주소를 복사하십시오.
 
-![Repote Repository](../images/unity3d/cloud_build/18-repote_repository.png)
+![Repote Repository](/images/unity3d/cloud_build/18-repote_repository.png)
 
 이 URL은 [새 프로젝트를 추가](https://build.cloud.unity3d.com/) 할 때 Unity Cloud Build에 제공하는 URL입니다.
 
@@ -221,11 +221,11 @@ repo 페이지에서 브라우저의 주소 표시 줄로 이동하여 표시되
 
 [https://build.cloud.unity3d.com](https://build.cloud.unity3d.com)으로 이동하여 Unity Developer Account로 로그인하십시오. Cloud Build 홈페이지로 이동하게됩니다.
 
-![Cloud Build Home Page](../images/unity3d/cloud_build/3.01-cloud_build_home_page_0.png)
+![Cloud Build Home Page](/images/unity3d/cloud_build/3.01-cloud_build_home_page_0.png)
 
 Cloud Build 홈 페이지에서 "Add New"를 클릭하십시오. Cloud Build는 프로젝트의 이름과 프로젝트가 속한 조직의 이름을 선택하도록 요청합니다.
 
-![Create New Project](../images/unity3d/cloud_build/3.02-create_new_project.png)
+![Create New Project](/images/unity3d/cloud_build/3.02-create_new_project.png)
 
 - Organization: 드롭 다운 메뉴를 클릭하고 사용자 이름을 선택하십시오.
 - Project Name: 무엇이든지 상관 없음.
@@ -237,7 +237,7 @@ Cloud Build 홈 페이지에서 "Add New"를 클릭하십시오. Cloud Build는 
 
 repo URL을 제공 한 후 다음을 클릭하십시오.
 
-![Connect To Repository](../images/unity3d/cloud_build/3.03-connect_to_repository.png)
+![Connect To Repository](/images/unity3d/cloud_build/3.03-connect_to_repository.png)
 
 ### 03. 액세스 권한 구성
 
@@ -249,13 +249,13 @@ repo가 비공개 인 경우 Cloud Build는 파일에 액세스하여 빌드 할
 
 이전 단계의 샘플 프로젝트를 사용한 경우에는 액세스 권한을 구성하라는 메시지가 표시되지 않습니다. 프로젝트는 공개입니다.
 
-![Connect To Repository](../images/unity3d/cloud_build/3.04-copy_ssh_key-b.png)
+![Connect To Repository](/images/unity3d/cloud_build/3.04-copy_ssh_key-b.png)
 
 클라우드 빌드에서 제공하는 SSH 키 복사
 
 Cloud Build에서 제공하는 SSH 키를 리포에 연결합니다. 만약 레슨 2를 진행 하였다면, BitBucket 레포에 SSH 키를 추가할 수 있을 것입니다.
 
-![Connect To Repository](../images/unity3d/cloud_build/3.05-add_ssh_key-b.png)
+![Connect To Repository](/images/unity3d/cloud_build/3.05-add_ssh_key-b.png)
 
 저장소 구성을 마치면 다음을 클릭하여 설정을 구성하십시오.
 
@@ -263,17 +263,17 @@ Cloud Build에서 제공하는 SSH 키를 리포에 연결합니다. 만약 레�
 
 플랫폼을 선택하라는 메시지가 나타납니다. 이 레슨에서는 Web Player를 선택하십시오.
 
-![Select Build Targetb Update](../images/unity3d/cloud_build/3.06-select_build_targetb_update_0.png)
+![Select Build Targetb Update](/images/unity3d/cloud_build/3.06-select_build_targetb_update_0.png)
 
 자세한 구성 정보를 제공하라는 메시지가 나타납니다. 빌드 할 Repo에서 지점을 선택해야합니다. 레슨 2의 Bitbucket 레포를 사용하는 경우 "마스터"를 선택하십시오.
 
-![Select Build Branch](../images/unity3d/cloud_build/3.07-select_build_branch.png)
+![Select Build Branch](/images/unity3d/cloud_build/3.07-select_build_branch.png)
 
 ### 05. 빌드!
 
 "Next"를 클릭하면 Unity Cloud Build가 자동으로 컴파일을 시작합니다.
 
-![Select Build Branch](../images/unity3d/cloud_build/3.08-buildb.png)
+![Select Build Branch](/images/unity3d/cloud_build/3.08-buildb.png)
 
 빌드 프로세스가 완료되면 자동으로 통지됩니다.
 
@@ -316,7 +316,7 @@ Cloud Build에서 제공하는 SSH 키를 리포에 연결합니다. 만약 레�
 
 일반적인 빌드 파이프 라인은 다음과 같습니다.
 
-![Build Pipeline](../images/unity3d/cloud_build/4.01-build_pipeline.png)
+![Build Pipeline](/images/unity3d/cloud_build/4.01-build_pipeline.png)
 
 ### 소스 제어는 무엇입니까?
 

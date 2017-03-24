@@ -2,6 +2,7 @@
 layout: post
 title: "Jikill 블로그 구현 해야되는 목록"
 date: "2017-01-16 20:31:53 +0900"
+tags: [jekyll]
 ---
 
 ## 현재까지 구현한 목록

@@ -3,7 +3,7 @@ layout: post
 title:  "Welcome to Jekyll!"
 date:   2017-01-11 20:45:49 +0900
 categories: jekyll update
-tags: [tag1, tag2, tag3]
+tags: [jekyll, tag1, tag2, tag3]
 ---
 
 각주 테스트[^1]

@@ -2,7 +2,7 @@
 layout: post
 title: "jekyll search"
 date: "2017-01-14 18:19:41 +0900"
-tags: [tag1, tag2, tag3]
+tags: [jekyll]
 ---
 
 검색

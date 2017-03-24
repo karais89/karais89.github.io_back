@@ -2,6 +2,7 @@
 layout: post
 title: "Unity3d 성능 최적화"
 date: "2017-02-19 21:39:24 +0900"
+tags: [unity3d]
 ---
 
 # 01. 메모리와 리소스 최적화

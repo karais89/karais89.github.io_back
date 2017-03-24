@@ -2,6 +2,7 @@
 layout: post
 title: "bigfoot jekyll 적용하기"
 date: "2017-01-15 18:46:59 +0900"
+tags: [jekyll]
 ---
 
 * http://www.bigfootjs.com/

@@ -13,12 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@domain.com
+title: Programming Summary Notes
+email: karais89@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  게임 개발 관련 개발 이슈 정리 블로그. 개인 정리 용도 입니다.
 
 # the subpath of your site, e.g. /blog
 baseurl: ""
@@ -26,8 +24,8 @@ baseurl: ""
 # the base hostname & protocol for your site, e.g. http://example.com
 url: "https://karais89.github.io"
 
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: karais89
+github_username:  karais89
 
 permalink: pretty   # /blog/:year/:month/:day/:title/
 # path: "_posts/blog"
@@ -46,7 +44,7 @@ exclude:
   - Gemfile.lock
 
 # paginate settings
-paginate: 5
+paginate: 10
 paginate_path: "/blog/page:num/"
 
 # Optionally, if you have a Disqus account, you can tell Jekyll to use it to show a comments section below each post.

@@ -4,12 +4,8 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+프로그래밍 관련 블로그
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jekyll" %} /
-[minima](https://github.com/jekyll/minima)
+현직 게임 프로그래머로 근무하고 있고, Unity3d 엔진을 주로 사용하고 있습니다.
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+Unity3d 사용시 발생하는 이슈등을 위주로 정리 할 생각이며, 책 관련 리뷰들도 추가해 나갈 예정입니다.

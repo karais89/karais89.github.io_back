@@ -261,3 +261,21 @@
     }
   }
 }
+
+/* index.md post*/
+ul.posts {
+  list-style-type: none;
+  margin-bottom: 2em;
+  padding-left: 0;
+}
+
+ul.posts li {
+  margin-bottom: 1.4em;
+}
+
+ul.posts .date {
+  color: #999;
+  font-family: "Titillium Web", monospace;
+  font-size: 90%;
+  margin-right: 0.5em;
+}

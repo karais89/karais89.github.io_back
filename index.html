@@ -2,6 +2,8 @@
 layout: default
 description: Learn to do, Learn  by doing
 ---
+<section>
+
 <ul class="posts">
   <!-- This loops through the paginated posts -->
   {% for post in paginator.posts %}
@@ -18,7 +20,6 @@ description: Learn to do, Learn  by doing
           <li><a href="/search?tag={{ tag | escape }}">{{ tag }}</a></li>
         {% endfor %}
       </ul>
-      <p>
     </li>
   {% endfor %}
 </ul>
@@ -51,3 +52,5 @@ description: Learn to do, Learn  by doing
     {% endif %}
   </div>
 {% endif %}
+
+</section>

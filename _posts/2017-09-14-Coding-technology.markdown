@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "[리뷰] 코딩의 기술"
+description: "코딩의 기술 서적에 대한 리뷰"
 date:   2017-09-14 13:00:00 +0900
 tags: [book]
 ---

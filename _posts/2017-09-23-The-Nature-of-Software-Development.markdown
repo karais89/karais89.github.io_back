@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "[리뷰] The Nature of Software Development"
+description: "The Nature of Software Development 서적에 대한 리뷰"
 date:   2017-09-23 11:22:00 +0900
 tags: [book]
 ---

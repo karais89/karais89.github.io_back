@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Welcome to Jekyll!"
+description: "지킬 블로그를 처음 생성시 만들어지는 글"
 date:   2017-01-11 20:45:49 +0900
 categories: jekyll update
 tags: [jekyll, tag1, tag2, tag3]

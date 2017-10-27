@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Unity3d 현재 씬을 다시 불러오는 방법"
+description: "유니티에서 현재 씬을 다시 불러오는 방법에 대한 설명"
 date: "2017-01-27 16:01:05 +0900"
 tags: [unity3d]
 ---

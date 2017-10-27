@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Unity Cloud Build"
+description: "유니티 클라우드 빌드에 대한 포스트 번역"
 date: "2017-03-10 22:16:35 +0900"
 tags: [unity3d]
 ---

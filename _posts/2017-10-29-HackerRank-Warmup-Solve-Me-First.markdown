@@ -12,7 +12,7 @@ stdin으로 읽은 두 정수의 합을 반환하는 함수를 만들어라.
 
 ## 내 소스
 
-```C#
+```csharp
 using System;
 using System.Collections.Generic;
 using System.IO;

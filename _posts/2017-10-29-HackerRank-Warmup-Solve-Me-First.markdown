@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[HackerRank] Warmup Solve Me First"
+title: "[HackerRank #1] Warmup - Solve Me First"
 description: "HackerRank Warmup Solve Me First 문제 풀이"
 date: 2017-10-29 01:30:00 +0900
 tags: [hackerrank]
@@ -12,7 +12,7 @@ stdin으로 읽은 두 정수의 합을 반환하는 함수를 만들어라.
 
 ## 내 소스
 
-```
+```C#
 using System;
 using System.Collections.Generic;
 using System.IO;

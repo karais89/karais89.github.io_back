@@ -49,4 +49,4 @@ class Solution {
 
 배열의 합은 매우 크므로 long 자료형을 사용해서 구해주면 끝..
 
-[HackerRank Warup 2번째 문제](/_posts/2017-10-30-HackerRank-Warmup-Simple-Array-Sum.markdown)와 같은 방식으로 구했다.
+[HackerRank Warup 2번째 문제](../2017/10/30/HackerRank-Warmup-Simple-Array-Sum/)와 같은 방식으로 구했다.

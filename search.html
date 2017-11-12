@@ -1,65 +1,35 @@
 ---
 layout: default
+page_title: Search
+permalink: /search/
 ---
-{% comment %}
-This is the "search page". When a user hits `/search?category=foobar`, a little
-piece of JavaScript hides everything on this page that doesn't have a category
-of `foobar`. Likewise for `/search?tag=foobar`.
+<div id="results">
+  <h1><!-- `key` listing for `value` --></h1>
 
-It's a pretty stupid way of doing thingsz because everything is always visible
-in the DOM, but whatever, I don't care about SEO here.
-
-It relies on any links to this page either having a `tag` or a `category` key,
-with a value that's been escaped with the Liquid `escape` filter, such that the
-escape names on this page match those in the URL.
-{% endcomment %}
-<div class="category-index">
-  {% for category in site.categories %}
-    {% assign nposts = category | last | size %}
-    <div class="collection" data-name="{{ category | first | escape }}">
-      <header>
-        <h1>{{ category | first }}</h1>
-        <h2>{{ nposts }} post{% if nposts != 1 %}s{% endif %}</h2>
-      </header>
-      <ul>
-        {% for posts in category %}
-          {% for post in posts %}
-            {% comment %}
-            I'm not sure why I need to check for the title, I think because the
-            category is itself part of the posts list for some reason.
-            {% endcomment %}
-            {% if post.title %}
-              <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-            {% endif %}
-          {% endfor %}
-        {% endfor %}
-      </ul>
-    </div>
-  {% endfor %}
+  <ul class="results">
+    <!-- results lists -->
+  </ul>
 </div>
 
-{% comment %}This is the same as above, just looping over tags{% endcomment %}
-<div class="tag-index">
-  {% for tag in site.tags %}
-    {% assign nposts = tag | last | size %}
-    <div class="collection" data-name="{{ tag | first | escape }}">
-      <header>
-        <h1>{{ tag | first }}</h1>
-        <h2>{{ nposts }} post{% if nposts != 1 %}s{% endif %}</h2>
-      </header>
-      <ul>
-        {% for posts in tag %}
-          {% for post in posts %}
-            {% comment %}
-            I'm not sure why I need to check for the title, I think because the
-            tag is itself part of the posts list for some reason.
-            {% endcomment %}
-            {% if post.title %}
-              <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-            {% endif %}
-          {% endfor %}
-        {% endfor %}
-      </ul>
-    </div>
-  {% endfor %}
+<!— Html Elements for Search -->
+<div id="search-container">
+<input type="text" id="search-input" placeholder="search...">
+<ul id="results-container"></ul>
 </div>
+
+<!-- Script pointing to jekyll-search.js -->
+<script src="{{site.baseurl}}/dest/jekyll-search.js" type="text/javascript"></script>
+
+
+<script type="text/javascript">
+      SimpleJekyllSearch({
+        searchInput: document.getElementById('search-input'),
+        resultsContainer: document.getElementById('results-container'),
+        json: '{{ site.baseurl }}/search2.json',
+        searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
+        noResultsText: 'No results found',
+        limit: 10,
+        fuzzy: false,
+        exclude: ['Welcome']
+      })
+</script>

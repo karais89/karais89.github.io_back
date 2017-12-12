@@ -13,7 +13,8 @@ description: Learn to do, Learn  by doing
       </h2>
       <p>
         <span class="date">{{ post.date | date_to_string }}</span>
-        <span class="description">{{ post.description }}</span>
+        <!-- <span class="description">{{ post.description }}</span> -->
+        {{ post.excerpt }}
       </p>
       <ul class="tags">
         {% for tag in post.tags %}

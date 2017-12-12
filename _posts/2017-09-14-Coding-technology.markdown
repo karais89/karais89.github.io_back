@@ -5,8 +5,6 @@ description: "코딩의 기술 서적에 대한 리뷰"
 date:   2017-09-14 13:00:00 +0900
 tags: [book]
 ---
-# [리뷰] 코딩의 기술
-
 ![book image](/images/book/3.png)
 
 프로그래밍 방법론

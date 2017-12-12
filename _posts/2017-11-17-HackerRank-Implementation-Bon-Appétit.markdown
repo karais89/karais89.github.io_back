@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[HackerRank #20] Implementation - Bon Appétit"
-excerpt_separator: "HackerRank Implementation Bon Appétit 문제 풀이"
+excerpt: "HackerRank Implementation Bon Appétit 문제 풀이"
 date: 2017-11-17 09:36:00 +0900
 tags: [hackerrank]
 ---

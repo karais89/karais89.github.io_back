@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[HackerRank #9] Warmup - Birthday Cake Candles"
-description: "HackerRank Warmup Birthday Cake Candles 문제 풀이"
+excerpt: "HackerRank Warmup Birthday Cake Candles 문제 풀이"
 date: 2017-11-06 13:21:00 +0900
 tags: [hackerrank]
 ---

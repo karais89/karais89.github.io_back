@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[HackerRank #10] Warmup - Time Conversion"
-description: "HackerRank Warmup Time Conversion 문제 풀이"
+excerpt: "HackerRank Warmup Time Conversion 문제 풀이"
 date: 2017-11-07 16:21:00 +0900
 tags: [hackerrank]
 ---

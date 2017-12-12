@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[HackerRank #13] Implementation - Kangaroo"
-description: "HackerRank Implementation Kangaroo 문제 풀이"
+excerpt: "HackerRank Implementation Kangaroo 문제 풀이"
 date: 2017-11-09 21:32:00 +0900
 tags: [hackerrank]
 ---

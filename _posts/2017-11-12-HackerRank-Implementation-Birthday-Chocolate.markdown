@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[HackerRank #16] Implementation - Birthday Chocolate"
-description: "HackerRank Implementation Birthday Chocolate 문제 풀이"
+excerpt: "HackerRank Implementation Birthday Chocolate 문제 풀이"
 date: 2017-11-12 17:00:00 +0900
 tags: [hackerrank]
 ---

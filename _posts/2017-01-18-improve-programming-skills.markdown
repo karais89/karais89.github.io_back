@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "프로그래밍 실력 향상 방법"
-description: "프로그래밍 실력을 향상 시키는 방법에 대해 정리"
+excerpt: "프로그래밍 실력을 향상 시키는 방법에 대해 정리"
 date: "2017-01-18 21:10:43 +0900"
 tags: [programming]
 ---

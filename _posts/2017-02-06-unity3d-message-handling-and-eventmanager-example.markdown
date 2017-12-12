@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Unity3d 메시지 핸들링 하기 (이벤트 매니저)"
-description: "유니티 메시지 핸들링 시스템을 이용하는 법"
+excerpt: "유니티 메시지 핸들링 시스템을 이용하는 법"
 date: "2017-02-06 21:17:52 +0900"
 tags: [unity3d]
 ---

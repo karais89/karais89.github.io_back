@@ -5,8 +5,6 @@ description: "IT 전문가로 사는 법 서적에 대한 리뷰"
 date: 2017-10-13 15:23:00 +0900
 tags: [book]
 ---
-# [리뷰] IT 전문가로 사는 법
-
 ![book image](/images/book/5.png)
 
 IT 개발자든, 엔지니어든, 컨설턴트든, 전산쟁이가 IT 전문가로 성공하는 법!

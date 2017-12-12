@@ -5,8 +5,6 @@ description: "초보자를 위한 파이썬 200제 서적에 대한 리뷰"
 date:   2017-08-13 20:26:00 +0900
 tags: [book]
 ---
-# 초보자를 위한 파이썬 200제
-
 ![book image](/images/book/2.png)
 
 예제 형식의 파이썬 서적

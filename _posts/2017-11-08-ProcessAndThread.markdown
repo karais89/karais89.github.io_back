@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "프로세스와 쓰레드의 차이"
-description: "프로세스와 스레드의 개념과 차이에 대한 설명"
+excerpt: "프로세스와 스레드의 개념과 차이에 대한 설명"
 date: 2017-11-08 20:50:00 +0900
 tags: [interview]
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[HackerRank #3] Warmup - Compare the Triplets"
-description: "HackerRank Warmup Compare the Triplets 문제 풀이"
+excerpt: "HackerRank Warmup Compare the Triplets 문제 풀이"
 date: 2017-10-31 16:12:00 +0900
 tags: [hackerrank]
 ---

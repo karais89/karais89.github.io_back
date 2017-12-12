@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[HackerRank #17] Implementation - Divisible Sum Pairs"
-description: "HackerRank Implementation Divisible Sum Pairs 문제 풀이"
+excerpt: "HackerRank Implementation Divisible Sum Pairs 문제 풀이"
 date: 2017-11-14 11:18:00 +0900
 tags: [hackerrank]
 ---

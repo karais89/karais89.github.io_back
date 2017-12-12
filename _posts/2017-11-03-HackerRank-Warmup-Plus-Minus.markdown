@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[HackerRank #6] Warmup - Plus Minus"
-description: "HackerRank Warmup Plus Minus 문제 풀이"
+excerpt: "HackerRank Warmup Plus Minus 문제 풀이"
 date: 2017-11-03 19:20:00 +0900
 tags: [hackerrank]
 ---

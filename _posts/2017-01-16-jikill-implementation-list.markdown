@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Jikill 블로그 구현 해야되는 목록"
-description: "지킬 블로그를 만들고 구현해야 되는 리스트 정리"
+excerpt: "지킬 블로그를 만들고 구현해야 되는 리스트 정리"
 date: "2017-01-16 20:31:53 +0900"
 tags: [jekyll]
 ---

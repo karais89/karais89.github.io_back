@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "유클리드 호제법이란?"
-description: "유클리드 호제법에 대해 알아보기"
+excerpt: "유클리드 호제법에 대해 알아보기"
 date: 2017-11-12 12:34:00 +0900
 tags: [algorithm]
 ---

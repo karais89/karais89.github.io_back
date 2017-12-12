@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[HackerRank #19] Implementation - Day of the Programmer"
-description: "HackerRank Implementation Day of the Programmer 문제 풀이"
+excerpt: "HackerRank Implementation Day of the Programmer 문제 풀이"
 date: 2017-11-16 21:06:00 +0900
 tags: [hackerrank]
 ---

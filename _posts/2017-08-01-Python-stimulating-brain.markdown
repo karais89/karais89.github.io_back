@@ -5,8 +5,6 @@ description: "뇌를 자극하는 파이썬 3 서적에 대한 리뷰"
 date:   2017-08-01 09:51:00 +0900
 tags: [book]
 ---
-# 뇌를 자극하는 파이썬 3
-
 ![book image](/images/book/1.png)
 
 파이썬 서적

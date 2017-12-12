@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[HackerRank #7] Warmup - Staircase"
-description: "HackerRank Warmup Staircase 문제 풀이"
+excerpt: "HackerRank Warmup Staircase 문제 풀이"
 date: 2017-11-04 09:20:00 +0900
 tags: [hackerrank]
 ---

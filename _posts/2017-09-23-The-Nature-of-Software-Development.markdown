@@ -5,8 +5,6 @@ description: "The Nature of Software Development 서적에 대한 리뷰"
 date:   2017-09-23 11:22:00 +0900
 tags: [book]
 ---
-# [리뷰] The Nature of Software Development
-
 ![book image](/images/book/4.png)
 
 프로그래밍 방법론

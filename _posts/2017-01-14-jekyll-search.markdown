@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "jekyll search"
-description: "지킬 블로그에서 태그와 카테고리를 사용해 검색하는 법"
+excerpt: "지킬 블로그에서 태그와 카테고리를 사용해 검색하는 법"
 date: "2017-01-14 18:19:41 +0900"
 tags: [jekyll]
 ---

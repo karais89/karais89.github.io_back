@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[HackerRank #18] Implementation - Migratory Birds"
-description: "HackerRank Implementation Migratory Birds 문제 풀이"
+excerpt: "HackerRank Implementation Migratory Birds 문제 풀이"
 date: 2017-11-15 00:55:00 +0900
 tags: [hackerrank]
 ---

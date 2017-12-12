@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Unity3d Singleton 패턴을 사용하는 방법"
-description: "유니티에서 가장 많이 쓰이는 패턴 중 하나인 싱글톤 패턴에 대한 설명 및 코드"
+excerpt: "유니티에서 가장 많이 쓰이는 패턴 중 하나인 싱글톤 패턴에 대한 설명 및 코드"
 date: "2017-02-04 20:07:46 +0900"
 tags: [unity3d]
 ---

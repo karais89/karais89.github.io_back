@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Unity3d 메모리 풀 시스템 예"
-description: "유니티 메모리 풀 시스템 예제 코드"
+excerpt: "유니티 메모리 풀 시스템 예제 코드"
 date: "2017-02-05 22:10:13 +0900"
 tags: [unity3d]
 ---

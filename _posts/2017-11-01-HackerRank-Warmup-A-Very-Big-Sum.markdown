@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[HackerRank #4] Warmup - A Very Big Sum"
-description: "HackerRank Warmup A Very Big Sum 문제 풀이"
+excerpt: "HackerRank Warmup A Very Big Sum 문제 풀이"
 date: 2017-11-01 22:32:00 +0900
 tags: [hackerrank]
 ---

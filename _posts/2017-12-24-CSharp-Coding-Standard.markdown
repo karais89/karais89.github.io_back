@@ -223,6 +223,7 @@ switch (number)
 
 #### 24. 스위치 문에서 default 문이 발생해야되지 않아야 되는 경우에는 항상 Assert(false)를 더해라. assert 구현에서, 이것은 릴리즈 빌드를위한 최적화 힌트를 추가 해라.
 
+```
 switch (type)
 {
   case 1:
@@ -232,10 +233,13 @@ switch (type)
     Debug.Fail("unknown type");
     break;
 }
+```
 
 #### 25. 재귀 함수의 이름은 "Recursive"로 끝내라.
 
+```
 void FibonacciRecursive();
+```
 
 #### 26. 클래스 변수와 메소드의 순서는 다음과 같아야합니다.
 

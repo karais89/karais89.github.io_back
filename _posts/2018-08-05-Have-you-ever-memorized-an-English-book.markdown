@@ -1,9 +1,8 @@
--
---
+---
 layout: post
-title: "[리뷰] 언틸유아마인"
-description: "언틸유아마인"
-date: 2018-07-21 13:17:00 +0900
+title: "[리뷰] 영어책 한 권 외워봤니?"
+description: "영어책 한 권 외워봤니?"
+date: 2018-08-05 17:30:00 +0900
 tags: [book]
 ---
 

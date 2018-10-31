@@ -1,0 +1,106 @@
+---
+layout: post
+title: "TIL - 20181031"
+excerpt: "TIL - 20181031"
+date: 2018-10-31 21:00:00 +0900
+tags: [til]
+---
+
+## 오늘 한 일
+
+- [언리얼 엔진 네이버 공식 카페](https://cafe.naver.com/unrealenginekr/735)
+    - 각종 입문
+        - GitHub 를 통한 UE4 소스 다운로드와 빌드 ( 9:16)
+        - UE4 프로그래밍 입문 (21:21)
+        - UE4 레벨 디자인 입문 (25:12)
+
+## 느낀 점
+
+- 각종 입문 부분은 예전 강의 부분이라 현재 버전인 4.20과 다른 부분이 있었다.
+- 강의 자체의 내용은 짧았는데, 빌드 시간 및 버전이 상이한 문제로 상당한 시간이 소비 되었다.
+
+## UE4 프로그래밍 입문 변경된 일부 코드 
+
+4.20.3 버전 기준으로 변경된 점
+
+- TSubobjectPtr Deprecated로 그냥 일반적인 c++ 포인터를 사용
+- UPROPERTY인자 인수 변경 (컴파일 에러 때문에 이유는 모르겠다)
+- #include "Components/SphereComponent.h" 추가
+- PCIP 변수 삭제 및 PCIP.CreateDefaultSubobject 대신 CreateDefaultSubobject 사용
+
+Powerup.h
+```cpp
+// Fill out your copyright notice in the Description page of Project Settings.
+
+#pragma once
+
+#include "CoreMinimal.h"
+#include "GameFramework/Actor.h"
+#include "Powerup.generated.h"
+
+UCLASS()
+class PIZZA_API APowerup : public AActor
+{
+	GENERATED_BODY()
+
+	UPROPERTY(VisibleDefaultsOnly, Category = Powerup)
+	class USphereComponent* TouchSphere;
+
+	UPROPERTY(EditDefaultsOnly, Category = Powerup)
+	float RotationRate;
+
+public:	
+	// Sets default values for this actor's properties
+	APowerup();
+
+protected:
+	// Called when the game starts or when spawned
+	virtual void BeginPlay() override;
+
+public:	
+	// Called every frame
+	virtual void Tick(float DeltaTime) override;	
+};
+```
+
+Powerup.cpp
+```cpp
+// Fill out your copyright notice in the Description page of Project Settings.
+
+#include "Components/SphereComponent.h"
+#include "Powerup.h"
+
+// Sets default values
+APowerup::APowerup()
+{
+ 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+	PrimaryActorTick.bCanEverTick = true;
+
+	TouchSphere = CreateDefaultSubobject<USphereComponent>(TEXT("TouchSphereComponent"));
+	TouchSphere->SetSphereRadius(20.0f, false);
+	RootComponent = TouchSphere;
+
+	RotationRate = 180.0f;
+}
+
+// Called when the game starts or when spawned
+void APowerup::BeginPlay()
+{
+	Super::BeginPlay();	
+}
+
+// Called every frame
+void APowerup::Tick(float DeltaTime)
+{
+	Super::Tick(DeltaTime);
+
+	FRotator MyRot = GetActorRotation();
+	MyRot.Yaw += RotationRate * DeltaTime;
+	SetActorRotation(MyRot);
+}
+```
+
+## 내일 할 일
+
+- UE4 머티리얼 소개 (1시간 53분)
+- Effective C#

@@ -69,3 +69,34 @@ fact ----------> inference
 영어는 "법"으로 규정되는 것이 아니라 "상식"처럼 공유하는 것입니다.
 
 ### 3. 한마디로 PRACTICE 1
+
+영어의 순서에 익숙해져야 한다. 
+- 0.1초 안에 바뀌면 스피킹
+- 1초면 리스닝
+- 10초면 리딩
+
+1. 그 방 안에 있는 남자 / 책상 위에 있는 TV
+    - 남자 / 안에 있는 / 그 방
+    - The man / in / the room
+    - TV / 위에 있는 / 책상
+    - The TV / on / the desk
+2. 미국에서 공부하고 있는 학생들 / 미국에서 공부할 학생들
+    - Students / studying / in America
+    - Studnets / to study / in America
+3. 그 건물 앞에 있는 그 여자 / 그 광장 한가운데 있는 나무
+    - The woman / in front / of the building
+    - The tree / at the center / of the square
+
+> 발음은 한마디로 닷컴 시크릿 스피킹!
+
+한마디로 영어 "문장" 만들기
+
+첫번째 문장
+- 어린 시절에 탄산음료를 너무 많이 마시는 것은 미친거다.
+- 미친거다 / 마시는 것은 / 탄산음료를 / 너무 많이 / 어린 시절에
+- It is crazy / to drink (drinking) / soda / too much / in childhood.
+
+두번째 문장
+- 이 일을 한 달 안에 끝내는 건 불가능해요.
+- 불가능해요 / 끝내는 건 / 이 일을 / 한 달 안에
+- It is impossible / to finish / this work / in a month (in one month)

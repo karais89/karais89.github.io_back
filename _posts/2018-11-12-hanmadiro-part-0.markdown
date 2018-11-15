@@ -100,3 +100,30 @@ fact ----------> inference
 - 이 일을 한 달 안에 끝내는 건 불가능해요.
 - 불가능해요 / 끝내는 건 / 이 일을 / 한 달 안에
 - It is impossible / to finish / this work / in a month (in one month)
+
+### 4. 한마디로 PRACTICE 2
+
+1. 어떠한 경우에도 난 너를 영원히 사랑할꺼야
+    - 난 사랑할거야 / 너를 / 영원히 / 어떠한 경우에도
+    - 부사는 가급적 짧은 것부터 쓴다. (영원히, 어떠한경우에도 중에 영원히 먼저)
+    - I will love / you / forever / in any cases
+2. 그런 남자랑 영원히 사는 건 정신나간 짓이야
+    - (그런 남자랑 영원히 사는 건) -> 뭐가에 해당
+    - 사는 건 / 그런 남자랑 / 영원히
+    - 사는 건 / 영원히 / 그런 남자랑
+    - Living / with such a guy / forever / is crazy(insance)
+    - Living / forever / with such a guy / is crazy(insance)
+    - It is crazy living with such a guy forever
+3. 내가 어제 집에 오는 길에 만났던 그 여자는 Marry였다
+    - (내가 어제 집에 오는 길에 만났던 그 여자는) -> 주어
+    - 대명사는 원칙상 수식이 안됨 (She 안됨)
+    - The woman / I met / yesterday / on the way / back / home / was Mary
+    - It was Marry / that I met / yesterday / on the way / back / home
+    - 가주어진주어? It~That 강조?? 미국인들은 그냥 한마디로! (같은 의미)
+    - 영어는 모든 문장이 강조! 중요한 말을 먼저 하니까~
+4. 자연을 훼손하는 것은 가까운 미래에 아무도 예상못한 불행을 초래할 것이다
+    - 자연을 훼손하는 것은 (주어)
+    - 초래할 것이다 (동사)
+    - 아무도 예상못한 불행을 (목적어)
+    - 가까운 미래에 (부사)
+    - Damaging nature / will cause / misfortune nobody expects / in the near future

@@ -127,3 +127,59 @@ fact ----------> inference
     - 아무도 예상못한 불행을 (목적어)
     - 가까운 미래에 (부사)
     - Damaging nature / will cause / misfortune nobody expects / in the near future
+
+### 5. 명사원형
+
+> 미국 사람들이 명사를 바라볼때는 이분법적으로 바라본다.
+
+명사원형은 한마디로에서 닷컴에서 설명해주는 개념
+
+영어는 서양철학의 이분법적 세계관으로부터 영향을 받았다??
+1. spirit 영혼
+    - 추상적, 이데아적인 것
+2. flesh 육체
+    - 구체적, 현실적
+
+- Plato
+    - idea 이데아론 = ideal 이상적인 세계, abstract
+    - 인간 = 이데아가 현실에서 구체화된 모습, practice
+- Kant
+    - chair = 이상적 세계 혹은 정신세계에서만 존재하는 추상적 의자
+    - a chair, chairs, the chair 등 = 현실세계에서 chair의 이데아가 구현된 상태
+
+sample
+- love = 원래 추상적인 세계에 속한 단어, 즉 명사원형 love로 주로 사용된다. (이데아에 속한 단어 a를 안붙이는 경우가 훨씬 많음)
+- a love, loves = love의 이데아가 현실 속에 구현된 '연애경험' '연애사건'
+
+예시
+- coffee
+    - coffee : 다양한 종류의 커피를 모두 아우르는 추상적 의미의 커피
+    - a coffee, coffees : 커피의 이데아가 현실속에서 다양한 형식으로 구현된 것
+- furniture (물질명사? 셀수 없다? -> 기존의 잘못된 영문법)
+    - 현실속에 가구는 존재하지 않는다. 가구는 만지거나 볼 수 없다. 우리 마음 속에 있다.
+    - furniture = 현실 속에 "가구"란 것 따로 없고 우리 마음 속에만 추상적으로 존재
+    - furnitures = 많이 쓰이진 않지만 "다양한 가구들"을 한마디로 표현할 때 쓸 수 있음
+- money
+    - money = 우리가 세었던 건 "돈"이 아니라 "만원", "천원"짜리 지폐였다.
+    - money란 건 우리 마음 속에만 존재하는 추상적인 것
+    - moneys = dollar, won, yen, pound, euro 등 현실의 다양한 화폐들을 가리킬 때
+    - 영어는 <법>으로 규정되서 지키는 게 아니고 "내가 의미하는 바를 표현하는 수단"
+- car, book, woman 등
+    - car = 현대, 기아, BMW 등 다양한 자동차를 추상적, 개념적으로 가리키는 말
+    - 눈 앞에 주차되어 있는 자동차들은 a car, the car, this car, some care 등으로 표시
+
+다른 예문
+- 커피는 건강에 좋다 / 커피 둘 주세요 (커피 두잔)
+    - Coffee is good for health.
+    - Two coffees, please (2 cups of coffee)
+- 사랑이란 주는 거다 / 이런 것도 사랑이지 뭐
+    - Love is giving
+    - This is a love = This is a kind of love
+- 음식은 맛있어야 해 / 난 다양한 음식을 요리할 수 있어
+    - Food should be delicious.
+    - I can cook various foods. (=kinds of food)
+- 가정이란 중요한 거야 / 많은 가정들이 여기 왔다
+    - Family is important.
+    - Many Families are here.
+
+> "사랑"이라는 단어가 문맥에서 다양한 의미를 갖는다는 것을 이해하는 것이 필수!

@@ -183,3 +183,37 @@ sample
     - Many Families are here.
 
 > "사랑"이라는 단어가 문맥에서 다양한 의미를 갖는다는 것을 이해하는 것이 필수!
+
+### 6. 동사원형
+
+이분법적 세계관은 "동사원형"에도 그대로 적용 된다.
+
+- 동사원형 (추상동사) study : 눈 앞에서 벌어지는 물리적 행동이 아니라 "추상적인 행동"
+- 준동사 (구체동사) to study, studying, studied : 현실에서 구현된 "구체적인 행동"
+
+예제
+- What do you do? (do = 추상적인 하다, 넌 원래 뭐하니?)
+- I study English = My major is English = I am a student (with English major)
+- What are you doing? (doing = 현실에서 구현된 행동)
+- I am studying English
+
+다른 예제 1
+- I teach English = I am an English teacher
+- I am teaching English = 원래 영어선생(직업)이 아니라 현재만 가르치는 중
+
+다른 예제 2
+- How do you do?
+    - (처음 만난 상황) 평소 어떻게 지내는 분이신가요?
+- How are you doing?
+    - (내가 알던 바와 마찬가지로) 잘 지내고 있죠?
+
+다른 예제 3
+- I'm loving it (맥도날드)
+    - love란 동사는 "구체동사"로 사용할 일이 별로 없는 추상적인 단어
+    - loving 구체동사를 사용해서 "지금 햄버거를 사랑하고 있는 생생한 장면"을 묘사
+
+다른 예제 4 - 상태동사는 진행형을 못쓴다고??
+- I am a teacher
+- I am being a teacher
+    - be 동사도 진행형 ok
+    - 원래 교사는 아니지만 지금 교사의 역할을 하고 있다

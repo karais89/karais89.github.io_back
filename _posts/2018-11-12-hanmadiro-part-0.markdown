@@ -217,3 +217,89 @@ sample
 - I am being a teacher
     - be 동사도 진행형 ok
     - 원래 교사는 아니지만 지금 교사의 역할을 하고 있다
+
+### 7. THAT절이 도대체 뭐야?
+
+1. It is true that I love you
+    - 내가 널 사랑한다는 건 사실이야.
+    - that I love = "내가 사랑한다는 것" (주격 명사절 접속사)
+    - 명사절 접속사 that은 쓸데없고 잘못된 영문법
+2. You Know that I love you
+    - 내가 널 사랑한다는 걸 너 알잖아
+    - that I love = "내가 사랑한다는 것을" (목적격 명사절 접속사)
+3. This is the girl that I love
+    - 얘가 내가 사랑하는 소녀야.
+    - that I love = "내가 사랑하는" (목적격관계대명사 or 형용사절 접속사)
+4. Do you know the reason that I love
+    - 내가 널 사랑하는 이유 알아?
+    - that I love = "내가 사랑하는" (관계부사 or 형용사절 접속사)
+5. Does she know the fact that I love you?
+    - 걔가 내가 널 사랑한다는 사실 알아?
+    - that I love = "내가 사랑한다는" (동격의 that or 형용사절 접속사)
+6. You are so beautiful that I love you
+    - 너무 예뻐서 난 널 사랑해
+    - that I love = "너무 ~해서 내가 사랑한다" (so that 용법)
+7. It is you that I love
+    - 내가 사랑하는 건 바로 너야
+    - that I love = "내가 사랑하는 건" (it ~that 강조용법)
+8. You must be happy that I love you
+    - 내가 널 사랑하니깐 넌 좋겠다.
+    - that I love = "내가 사랑하니까" (because 대신 쓰는 that) 부사절 접속사
+
+that의 의미가 바뀜. 8가지 정도.
+
+미국 애들은 이 8개 문장에서 that I love는 변하지 않는다.
+
+똑같이 썻으면 똑같은 의미
+
+
+미국 애들이 생각하는 that
+
+"that + 주어 동사" - 한마디로 that은 "궁금한대로 추론하세요"의 뜻
+
+- I love 나는 사랑한다
+- that I love : "내가 사랑한다"를 궁금한대로 변형해서 해석하세요!
+- that I love : "내가 사랑하는 것", "내가 사랑해서" 등등 궁금한대로 추론해서 해석
+
+1. It is true that I love you
+    - It is true (그것은 사실이다: 그게 뭔데?)
+    - that I love (내가 사랑한다는 게)
+2. You Know that I love you
+    - You know (너 알잖아 : 뭘 알아?)
+    - that I love (내가 사랑한다는 걸: 누굴?)
+    - you (너를)
+3. This is the girl that I love
+    - This is the girl (얘가 그 소녀야 : 무슨 소녀인데?)
+    - that I love (내가 사랑하는)
+    - = This is the girl who I am
+4. Do you know the reason that I love
+    - Do you know (너 아니? 뭘 알아?)
+    - the reason (그 이유를 : 무슨 이유?)
+    - that I love (내가 사랑하는: 누굴 사랑해?)
+    - you (너)
+    - = Do you know the reason why (for which) I love you?
+5. Does she know the fact that I love you?
+    - Does she know (그녀가 아니? : 뭘 알아?)
+    - the fact (그 사실 : 무슨 사실?)
+    - that I love (내가 사랑한다는 : 누굴 사랑해?)
+    - you (너)
+6. You are so beautiful that I love you
+    - You are so beautiful (넌 너무 아름다워 : 얼만큼?)
+    - that I love (내가 사랑할 만큼 : 누굴?)
+    - you (너를)
+7. It is you that I love
+    - It is you (그건 너야 : 뭐가 난데?)
+    - that I love (내가 사랑하는 게 너라고)
+8. You must be happy that I love you
+    - You must be happy (넌 분명 행복할꺼야 : 내가 왜?)
+    - that I love (내가 사랑하니까: 누굴?)
+    - you (너를)
+
+앞에서부터 해석하다 궁금한 내용으로 해석하는게 바로 "that"
+
+1. 난 **니가 여기 나랑 있어서** 행복해
+    - I am happy (왜 행복한데?) **that you are** here with me.
+2. 난 **니가 여기 나랑 있다는** 걸 분명히 알아
+    - I clearly know (뭘 아는데?) **that you are** here with me.
+3. 난 **니가 여기 나랑 있는** 이유를 모르겠어
+    - I don't understand the reason **that you are** here with me.

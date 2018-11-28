@@ -303,3 +303,54 @@ that의 의미가 바뀜. 8가지 정도.
     - I clearly know (뭘 아는데?) **that you are** here with me.
 3. 난 **니가 여기 나랑 있는** 이유를 모르겠어
     - I don't understand the reason **that you are** here with me.
+
+### 8. TO부정사가 도대체 뭐야?
+
+to부정사 : 아직은 하고 있지 않지만 "곧 ~하려고 하는 상태"(미래)의 의미
+- 명사, 형용사, 부사적 용법 (잘못된 영문법)
+
+- **To practice English** is the purpose of my visit here
+    - 뭐가? 영어를 연습하는 것이 (to부정사의 명사적용법 - 주어)
+- I would love **to practive English** of 한마디.com
+    - 뭐를? 영어를 연습하는 것을 (to부정사의 명사적용법 - 목적)
+- My goal is **to practive English** with you.
+    - 뭔데 ? 영어를 연습하는 것 (to부정사의 명사적용법 - 보어)
+- I made a plan **to practive English** in Korea.
+    - 어떤 계획? 영어를 연습할 (to부정사의 형용사적용법)
+- He went to the States **to practive English**
+    - 왜 갔는데? 영어를 연습하기 위해서 (to부정사의 부사적용법)
+
+> "앞에서부터 궁금해하며 해석!!"
+
+> 한국에서도 영어 잘할 수 있다.
+
+똑같이 쓰여진 "**to practive English**"를 우리는 왜 이렇게 다르다고 배웠을까?
+
+똑같이 쓰여진 "**to practive English**"는 사실 똑같은 의미이다??
+
+기본적으로 영어는 추론에 근거한 언어이다. 궁금해야 하는 언어!
+
+- **To practice English** is the purpose of my visit here
+    - 뭐가? 영어를 연습하는 것이
+- I would love **to practive English** of 한마디.com
+    - 뭐를? 영어를 연습하는 것을
+- My goal is **to practive English** with you.
+    - 뭔데 ? 영어를 연습하는 것
+- I made a plan **to practive English** in Korea.
+    - 어떤 계획? 영어를 연습할
+    - 왜? 왜 계획을 세웠는데? 영어를 연습하기 위해서
+    - 똑같은 문법인데 형용사가 될수도, 부사적용법이 될 수 있다.
+    - 미국애들도 헷갈릴수 있어서 아래 처럼 in order를 붙일 수 있다.
+        - I made a plan in order **to practive English** in Korea.
+        - 연습하기 위하여
+- He went to the States **to practive English**
+    - 왜 갔는데? 영어를 연습하기 위해서
+
+연습문제
+
+1. 그녀와 결혼하는 게 내 올해 목표다.
+    - To marry her is my goal (of) this year.
+2. 나는 그녀와 결혼할 목표를 가지고 있다.
+    - I have a goal to marry her.
+3. 나는 그녀와 결혼하기 위해 계획을 세웠다.
+    - I made a plan in order to marry her. (오해를 일으킬 수 있어서 in order를 넣어준다. 부사적 용법으로 정확하게 설명)

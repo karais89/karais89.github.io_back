@@ -354,3 +354,45 @@ to부정사 : 아직은 하고 있지 않지만 "곧 ~하려고 하는 상태"(�
     - I have a goal to marry her.
 3. 나는 그녀와 결혼하기 위해 계획을 세웠다.
     - I made a plan in order to marry her. (오해를 일으킬 수 있어서 in order를 넣어준다. 부사적 용법으로 정확하게 설명)
+
+### 9. ING가 도대체 뭐야?
+
+우리나라에서는 동명사, 현재분사, 진행형, 분사구등으로 불린다.
+
+- **Studying English at 한마디로 com** is my hobby (동명사[^1])
+    - ING의 명사적용법라고 해도 되는데 왜 동명사라고 할까?
+    - 저같은 경우 명사적용법이라고 하겠다.
+    - 뭐가? : 공부하는 것이
+- I found a student **studying English at 한마디로 com** (현재분사)
+    - ING의 형용사적용법라고 해도 되는데 왜 현재분사라고 할까?
+    - 저같은 경우 형용사적용법이라고 하겠다.
+    - 어떤 학생??? : 공부하는 중인
+- **Studying English at 한마디로 com,** I met my girl friend. (분사구문)
+    - ING의 부사적용법이라고 해도 되는데 왜 분사구문이라고 할까?
+    - 저같은 경우 차라리 부사적용법이라고 하겠다.
+    - 부사의 자리 : 공부하다가
+- I met my girl friend **studying English at 한마디로 com** (???)
+    - 그때 그때 달라요~ : 형용사 ?? 부사 ??
+    - 공부하다가 (부사), 공부하는 (형용사)
+    - 헷갈릴 수 있으니, studying 앞에 while등을 추가하면 꼼짝없이 공부하는 동안에 만난걸로 해석 된다. (분사구문)
+    - 헷갈릴 수 있으니, who is를 앞에 붙이면 꼼짝없이 형용사적 용법이 된다.
+
+
+- 나는 여자친구에게 전화거는 걸 정말 좋아해요.
+    - I really like making a phone call to my girl friend.
+    - 부사는 친한애랑 같이 써라 (really를 like 앞에)
+    - make a phone call (전화를 거는 것)
+    - making (동명사)
+- 나는 여자친구에게 전화를 거는 한 남자를 봤어요.
+    - I saw a man (a guy) making a phone call to his gril friend.
+    - making (현재분사)
+- 나는 여자친구에게 전화를 걸다가 우리 엄마를 만났어요.
+    - I met my mom while making a phone call to my girl friend.
+    - while가 없으면 오해가 생길 수 있다. 
+        - 내 여자친구에게 전화를 걸고 있는 엄마를 만났다라고 해석 될 수 있다.
+    - making 앞에 while을 붙인다. 부사로 해석됨.
+    - 오해를 풀 수 있는 다른 방법 (앞으로 이동)
+        - Making a phone call to my girl friend, I met my mom
+
+
+[^1]: 동명사란 동사가 명사가 된 것이다.

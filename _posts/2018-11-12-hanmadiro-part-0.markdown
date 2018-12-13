@@ -394,9 +394,6 @@ to부정사 : 아직은 하고 있지 않지만 "곧 ~하려고 하는 상태"(�
     - 오해를 풀 수 있는 다른 방법 (앞으로 이동)
         - Making a phone call to my girl friend, I met my mom
 
-
-[^1]: 동명사란 동사가 명사가 된 것이다.
-
 ### 10. 긴 문장 만들기
 
 > 영어를 잘할려면 노력과 시간이 필요합니다.
@@ -409,3 +406,30 @@ to부정사 : 아직은 하고 있지 않지만 "곧 ~하려고 하는 상태"(�
     - 그 남자는 여자를 좋아한다.
     - 추가할 거리가 보인다.
     - The man / teaching / English / in front / of you / now / likes ladies / that (who) can understand / the mind / of men.
+
+### 11. 문법이 아니라 한마디로공식
+
+문법: 말을 하는 법 = grammar
+
+grammar란 복잡하게 암기하는 "법"이 아니라, 말을 써먹는 설명서 같은 것
+
+> Not "문법" But "한마디로"
+
+**한마디로 공식**은 영어의 사고방식을 훈련하는 공부법
+
+- Susan is **watching television**
+    - 진행형 be ~ ing
+    - 보는 중
+- My hobby is **watching television**
+    - 동명사
+    - 보는 것
+- I found a girl **watching television**
+    - 현재분사 후취수식
+    - 보고 있는
+- **Watching television**, I found a girl.
+    - 분사구문, 동시동작
+    - 보다가
+
+진행형, 동명사, 현재분사, 분사구문으로 나뉘는 문법은 나쁜 문법.
+
+[^1]: 동명사란 동사가 명사가 된 것이다.

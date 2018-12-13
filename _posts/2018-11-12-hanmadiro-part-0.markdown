@@ -396,3 +396,16 @@ to부정사 : 아직은 하고 있지 않지만 "곧 ~하려고 하는 상태"(�
 
 
 [^1]: 동명사란 동사가 명사가 된 것이다.
+
+### 10. 긴 문장 만들기
+
+> 영어를 잘할려면 노력과 시간이 필요합니다.
+
+1. The computer is a tool
+    - 그 컴퓨터는 하나의 도구다.
+    - 간단한 문장에서 긴 문장으로 늘리기.
+    - The computer / invented / by a small number / of elites / is a tool / everyone uses / to calculate (for calculation) / the origin / of the universe.
+2. The man likes ladies
+    - 그 남자는 여자를 좋아한다.
+    - 추가할 거리가 보인다.
+    - The man / teaching / English / in front / of you / now / likes ladies / that (who) can understand / the mind / of men.

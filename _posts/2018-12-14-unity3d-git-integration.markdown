@@ -91,4 +91,10 @@ Assets/StreamingAssets/crashlytics-build.properties
 
 ![gitignore folder](/images/unity3d/2018-12-14-3.png)
 
+### 참고 사항
+
+- 예전 버전(2018 이전)에서는 위와 같이 설정하고 바로 커밋을 하는 경우 제대로 Scene 파일이 존재하지 않아 문제가 생겼었다. (제대로 프로젝트가 불려오지 않는 현상) 그래서 더미 Scene 파일까지 만들어서 커밋을 하였다.
+2018 버전에서는 자동으로 Sample Scene이 만들어지기 때문에 그런 문제는 없을 것 같다.
+- Edit - Project Settings - Editor 설정 화면이 바뀌어서 조금 해맸다. 처음에 설정 할 수 있는 셀렉트 박스가 안보였는데. Project Settings 세팅 창을 최대한 늘리면 보이게 된다.
+
 [^1]: 버전 관리 시스템은 파일의 변화를 시간에 따라 기록하여 과거 특정 시점의 버전을 다시 불러올 수 있는 시스템이다.

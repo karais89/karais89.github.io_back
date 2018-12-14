@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "한마디로 닷컴 - part 0. 영어의 비밀"
-excerpt: "한마디로 닷컴 - part 0. 영어의 비밀 내용 정리"
+title: "한마디로 닷컴 - 영어의 비밀"
+excerpt: "한마디로 닷컴 - 영어의 비밀 내용 정리"
 date: 2018-11-12 00:54:00 +0900
 tags: [english]
 ---
@@ -11,7 +11,7 @@ tags: [english]
 
 [한마디로 닷컴](https://hanmadiro.com/) 내용 정리
 
-## part 0. 영어의 비밀
+## 영어의 비밀
 
 ### 1. 영어가 어려운 이유
 

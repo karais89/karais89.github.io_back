@@ -40,5 +40,31 @@ tags: [english]
     - was allure / fatal / to everyone
     - be 동사는 equal 이다.
 
+### 주어와 서술어 나누기 2
+
+fatal allure?? 아니면 allure fatal??
+
+fatal allure 해도 되고 allure fatal 해도 된다.
+
+형용사[^3]는 반드시 명사 앞에만 온다??? 아닙니다 ~ 절대 그렇지 않습니다.
+
+"아름다운 여자" = beautiful woman 혹은 woman beautiful
+
+"불가능한 임무" = impossible mission?? mission impossible??
+
+woman beautiful이 틀린표현이라면 mission impossible도 틀린 표현 일까?
+
+- beautiful woman은 한마디로 미인
+- woman beautiful은 한마디로 여자이고 두마디로 이쁜 여자
+    - woman beautiful to my eyes 내눈에 이쁜 여자 = 미인? 김태희??
+
+- 한국에 살고 있는 모든 사람들은 자유와 평등을 사랑한다.
+    - 한국에 살고 있는 모든 사람들은 (주어)
+    - 자유와 평등을 사랑한다. (서술어)
+    - All people (Everyone) / living / in korea (주어)
+    - love / freedom and equality (서술어)
+
+
 [^1]: 문장 성분의 하나로, 술어가 나타내는 동작이나 상태의 주체가 되는 말을 뜻한다. 
 [^2]: 문장 구성의 기본 골격이 되는 요소로서, '~이다', '~하다', '~다' 식으로 주어의 내용을 전개해주는 문장 성분으로 동사, 형용사, 체언(주어, 목적어)과 합쳐져 기본적인 문장의 성분을 이루는 말이다.
+[^3]: 사물의 성질이나 상태를 나타내는 품사

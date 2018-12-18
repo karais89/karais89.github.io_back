@@ -75,3 +75,18 @@ woman beautiful이 틀린표현이라면 mission impossible도 틀린 표현 일
     - 서술어 : 엄격한 품질 검사를 거친다.
     - 주어 : Products (혹은 Goods) / manufactured (혹은 produced) (p.p) / in Korea (혹은 in our country)
     - 서술어 : go through / strict quality inspection
+
+### 주어와 서술어 나누기 4
+
+> 필기에 목 메이지 말자. 날 보고 생각하자. 머리속에 담아가자
+
+- 어제 신문에 보도된 그 사고는 한국 정치의 현 상황을 보여준다.
+    - 주어 : 어제 신문에 보도된 그 사고는
+    - 서술어 : 한국 정치의 현 상황을 보여준다.
+    - 주어 : The accident / reported (p.p) / in yesterday's Newspaper
+    - 서술어 : shows / the current situation / of Korean politics
+- 가난한 사람들을 거리로 몰아내는 것은 정부의 역할이 아니다.
+    - 주어 : 가난한 사람들을 거리로 몰아내는 것은
+    - 서술어 : 정부의 역할이 아니다.
+    - 주어 : Pushing out / poor people / to the street
+    - 서술어 : is not / the government's role

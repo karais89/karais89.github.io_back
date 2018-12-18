@@ -64,7 +64,14 @@ woman beautiful이 틀린표현이라면 mission impossible도 틀린 표현 일
     - All people (Everyone) / living / in korea (주어)
     - love / freedom and equality (서술어)
 
-
 [^1]: 문장 성분의 하나로, 술어가 나타내는 동작이나 상태의 주체가 되는 말을 뜻한다. 
 [^2]: 문장 구성의 기본 골격이 되는 요소로서, '~이다', '~하다', '~다' 식으로 주어의 내용을 전개해주는 문장 성분으로 동사, 형용사, 체언(주어, 목적어)과 합쳐져 기본적인 문장의 성분을 이루는 말이다.
 [^3]: 사물의 성질이나 상태를 나타내는 품사
+
+### 주어와 서술어 나누기 3
+
+- 우리나라에서 생산된 상품들은 엄격한 품질 검사를 거친다.
+    - 주어 : 우리나라에서 생산된 상품들은
+    - 서술어 : 엄격한 품질 검사를 거친다.
+    - 주어 : Products (혹은 Goods) / manufactured (혹은 produced) (p.p) / in Korea (혹은 in our country)
+    - 서술어 : go through / strict quality inspection

@@ -90,3 +90,25 @@ woman beautiful이 틀린표현이라면 mission impossible도 틀린 표현 일
     - 서술어 : 정부의 역할이 아니다.
     - 주어 : Pushing out / poor people / to the street
     - 서술어 : is not / the government's role
+
+### 주어와 서술어 나누기 5
+
+> <한마디로공식>이란?
+>
+> 가장 중요한 정보 혹은 단어를 딱 한마디로 요약하는 것
+>
+> 영어는 가장 중요한 정보부터 한마디, 두마디, 세마디 전개 된다.
+
+- 내가 어디서 그녀를 처음 만났는지는 지금 중요한 게 아니다.
+    - 주어 : 내가 어디서 그녀를 처음 만났는지는    
+        - 한마디로 : 어디인지
+        - 두마디로 : 어디에서 / 내가 만났는지
+        - 세마디로 : 어디에서 / 내가 만났는지 / 그녀를
+        - 네마디로 : 어디에서 / 내가 만났는지 / 그녀를 / 처음        
+    - 서술어 : 지금 중요한 게 아니다.
+    - 주어 : Where / I met / her / first
+    - 서술어 : is not / important / now
+    - 어디서인지는 지금 중요한 게 아니다.
+        - Where is not important
+    - 가주어/진주어도 역시 한마디로 공식!
+        - It is not important now where I met her first

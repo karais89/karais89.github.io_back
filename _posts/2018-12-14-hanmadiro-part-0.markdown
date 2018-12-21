@@ -64,10 +64,6 @@ woman beautiful이 틀린표현이라면 mission impossible도 틀린 표현 일
     - All people (Everyone) / living / in korea (주어)
     - love / freedom and equality (서술어)
 
-[^1]: 문장 성분의 하나로, 술어가 나타내는 동작이나 상태의 주체가 되는 말을 뜻한다. 
-[^2]: 문장 구성의 기본 골격이 되는 요소로서, '~이다', '~하다', '~다' 식으로 주어의 내용을 전개해주는 문장 성분으로 동사, 형용사, 체언(주어, 목적어)과 합쳐져 기본적인 문장의 성분을 이루는 말이다.
-[^3]: 사물의 성질이나 상태를 나타내는 품사
-
 ### 주어와 서술어 나누기 3
 
 - 우리나라에서 생산된 상품들은 엄격한 품질 검사를 거친다.
@@ -112,3 +108,31 @@ woman beautiful이 틀린표현이라면 mission impossible도 틀린 표현 일
         - Where is not important
     - 가주어/진주어도 역시 한마디로 공식!
         - It is not important now where I met her first
+
+## CHAPTER 1 - UNIT 2
+
+### 목적어[^4] 찾기 1
+
+이번 강의에서는 문장의 목적어 찾기를 우리말을 통해 연습해 보고 <한마디로공식>에 따라 한마디 두마디 늘여 나가는 훈련을 합니다.
+
+- 우리는 그 이야기 속에 감춰진 그 비밀을 발견했다.
+    - 주어 : 우리는
+    - 서술어 : 그 이야기 속에 감춰진 그 비밀을 발견했다.
+    - 목적어 : 그 이야기 속에 감춰진 그 비밀을
+    - we found the secret hidden in the story.
+- 나는 혼자서 공포영화 보는 걸 정말 싫어했다.
+    - 뭐가 어쨌다고? : 나는 정말 싫어했다 (I really hated)
+    - 목적어 : 혼자서 공포영화 보는 것
+    - I really hated(뭘?) to watch (뭘 봐?) horror movies alone.
+- 나는 어느 영화가 제일 재미있는지 알고 싶다.
+    - 뭐가 어쨌다고? : 나는 알고 싶다 = I want to know
+    - I want to know / which movie / is the most interesting.
+- 나는 어떤 사람이 좋은지 알고 싶다
+    - I want / to know / which person / is good.
+- 나는 어느 자동차가 더 좋은지 알고 싶어요
+    - I want / to know / witch car / is better.
+
+[^1]: 문장 성분의 하나로, 술어가 나타내는 동작이나 상태의 주체가 되는 말을 뜻한다. 
+[^2]: 문장 구성의 기본 골격이 되는 요소로서, '~이다', '~하다', '~다' 식으로 주어의 내용을 전개해주는 문장 성분으로 동사, 형용사, 체언(주어, 목적어)과 합쳐져 기본적인 문장의 성분을 이루는 말이다.
+[^3]: 사물의 성질이나 상태를 나타내는 품사
+[^4]: 동사가 나타내는 행위의 대상이 되는 존재를 가리키는 언어요소.

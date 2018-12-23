@@ -173,6 +173,26 @@ woman beautiful이 틀린표현이라면 mission impossible도 틀린 표현 일
     - hope : 충분히 일어날 일
     - wish : 이뤄지기 힘든 것
 
+### 보어와 부사 찾기 3
+
+- 문제는 왜 그녀가 사람들에게 그의 비밀을 누설했는가이다.
+    - 누설하다 = reveal
+    - 주어 : 문제는
+    - 서술어 : 왜 그녀가 사람들에게 그의 비밀을 누설했는가이다.
+    - 문제는 / 왜 / 그녀가 누설했는지이다 / 그의 비밀을 / 사람들에게
+    - The problem is / why / she revealed / his secret / to people.
+    - to : ~에게
+    - for : ~를 위해
+- 그녀는 이 세상에서 내가 받아본 가장 소중한 선물이다.
+    - 받다 = receive
+    - 소중한 = precious
+    - 선물 = present (예쁘게 마음이 담긴거)
+    - gift는 조금 더 넓은 의미 (공짜로 누가 준거)
+    - 그녀는 / 가장 소중한 선물이다 / 내가 받아본 / 이 세상에서
+    - She is the most precious present / (that) I have received / in this world
+    - 너는 한국에서 내가 받아본 가장 소중한 선물이다.
+        - You are the most precious present I have received in Korea.
+
 [^1]: 문장 성분의 하나로, 술어가 나타내는 동작이나 상태의 주체가 되는 말을 뜻한다. 
 [^2]: 문장 구성의 기본 골격이 되는 요소로서, '~이다', '~하다', '~다' 식으로 주어의 내용을 전개해주는 문장 성분으로 동사, 형용사, 체언(주어, 목적어)과 합쳐져 기본적인 문장의 성분을 이루는 말이다.
 [^3]: 사물의 성질이나 상태를 나타내는 품사

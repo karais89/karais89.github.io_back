@@ -193,6 +193,33 @@ woman beautiful이 틀린표현이라면 mission impossible도 틀린 표현 일
     - 너는 한국에서 내가 받아본 가장 소중한 선물이다.
         - You are the most precious present I have received in Korea.
 
+
+## CHAPTER 1 - UNIT 4
+
+### 부사의 위치 1
+
+부사 : 장소, 방법, 시간, 이유, 조건 같은 것들을 이야기함. 문장에서 없어져도 문장을 구성하는 데 아무 지장 없는 말
+
+부사는 위치를 잘못 잡으면 의미가 틀어질 수 있다. 부사의 위치는 중요하다.
+
+> 부사의 위치는 친한 애랑 같이 쓴다.
+
+- 난 드디어 영어의 비밀을 찾았다.
+    - 부사 : 드디어 = finally, in the end, at last
+    - I found the secret of English.
+    - 부사는 가급적이면 친한애랑 같이 쓴다.
+    - I **finally** found the secret of English.
+    - I **in the end** found the secret of English. 라고 써도 괜찮지만.. 너무 길기 때문에 부담 스럽다. 아래와 같이 쓰는게 일반적이다.
+        - **In the end**, I found the secret of English.
+        - I found the secret of English **in the end**
+- 우리는 서울에서 오랫동안 살아왔다.
+    - 부사 : 오랫동안, 서울에서
+    - We have lived (have p.p) in Seoul for a long time.
+    - We have **for a long time** lived in Seoul. (오랫동안을 강조하고 싶을때 앞에 쓸 수 있다.)
+    - 하지만 부사가 길어지면 뒤로 가는 경우가 일반적이다.
+    - In Seoul, we have lived for a long time. 도 가능하다.
+- 그는 그가 아는 모든 것들을 나에게 말해주었다.
+
 [^1]: 문장 성분의 하나로, 술어가 나타내는 동작이나 상태의 주체가 되는 말을 뜻한다. 
 [^2]: 문장 구성의 기본 골격이 되는 요소로서, '~이다', '~하다', '~다' 식으로 주어의 내용을 전개해주는 문장 성분으로 동사, 형용사, 체언(주어, 목적어)과 합쳐져 기본적인 문장의 성분을 이루는 말이다.
 [^3]: 사물의 성질이나 상태를 나타내는 품사

@@ -292,6 +292,56 @@ woman beautiful이 틀린표현이라면 mission impossible도 틀린 표현 일
     - 보어 : It is **the country that blames Korea.**
     - 전치사의 목적어 : I will fight against **the country that blames Korea.**
 
+### 명사의 종류와 역할 3
+
+**V** (동사)
+- to **V**
+- **V** ing
+- **V** ed
+
+eat
+- to eat (앞으로 먹을걸 생각하면 됨)
+- eating (지금 현재 먹고 있는 장면을 묘사하는 말)
+- eaten (먹히는 것)
+
+4) TO 부정사 : 전치사의 목적어로는 사용 X
+    - 주어 : **To study** is hard.
+    - 목적어 : I hate **to study.**
+    - 보어 : My plan is **to study.**
+    - ~~전치사의 목적어 : We had a discussion about **to study.**~~ (X)
+5) 동명사구(~ing) : 전치사의 목적어 사용 O
+    - 주어 : **Studying** is hard.
+    - 목적어 : I hate **studying.**
+    - 보어 : My hobby is **studying.**
+    - 전치사의 목적어 : He talked abount **studying.** (O)
+6) 명사절 : 주어/동사가 포함된 명사
+    - That 절 : 전치사의 목적어로는 사용 X
+        - 주어 : **That he is a liar** is true.
+        - 목적어 : I know **that he is a liar.**
+        - 보어 : The point is **that he is a liar.**
+        - ~~전치사의 목적어 : He talked abount **that he is a liar.**~~ (X)
+    - What 절
+        - 주어 : **What I did** is different.
+        - 목적어 : I know **what I did.**
+        - 보어 : The point is **what I did.**
+        - 전치사의 목적어 : He talked abount **what I did.**
+    - How 절
+        - 주어 : **How you did it** is important.
+        - 목적어 : I know **how you did it.**
+        - 보어 : The point is **how you did it.**
+        - 전치사의 목적어 : He talked abount **how you did it.**
+
+|역할      | 주어 | 목적어 | 보어 | 전치사의 목적어 |
+|--------- |---- |-----   |---- |--------------- |
+| 명사     | O | O | O | O |
+| 대명사    | O | O | O | O |
+| 명사구    | O | O | O | O |
+| To 부정사 | O | O | O | X |
+| 동명사구 | O | O | O | O |
+| 명사절 (that, what, who, which, whether) | O | O | O | O or X |
+
+> 54개의 다양한 표현이 나온다.
+
 [^1]: 문장 성분의 하나로, 술어가 나타내는 동작이나 상태의 주체가 되는 말을 뜻한다. 
 [^2]: 문장 구성의 기본 골격이 되는 요소로서, '~이다', '~하다', '~다' 식으로 주어의 내용을 전개해주는 문장 성분으로 동사, 형용사, 체언(주어, 목적어)과 합쳐져 기본적인 문장의 성분을 이루는 말이다.
 [^3]: 사물의 성질이나 상태를 나타내는 품사

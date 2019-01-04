@@ -342,6 +342,45 @@ eat
 
 > 54개의 다양한 표현이 나온다.
 
+### 동사의 종류 1
+
+동사는 자동사와 타동사로 나뉨.
+
+대부분 자동사와 타동사로 모두 사용 가능
+
+1) 자동사 : 목적어 없음 (그 동사안에 목적어를 내장하고 있음)
+- listen, wait, look, go, stay, exist, am, etc.
+    - listen : 귀를 기울이다.
+    - listen / to music
+    - wait : 기다리다.
+    - wiat for you
+    - look : 바라보다, ~처럼 보이다
+    - go : 가다
+    - stay : 머무르다
+    - exist : 존재하다.
+    - am : be 동사 뒤에 나오는 동사는 보어
+    - I am eating / 김밥.
+        - I am eating (자동사)
+        - I am eating 김밥 (타동사)
+        - eating은 자동사일 수도 있고 타동사일 수도 있다. (그때 그때 다르다)
+        - eating은 타동사에 가깝다. (90% 정도?)
+2) 타동사 : 목적어 있음
+- love, buy, spend, bring, take, put, kill, etc.
+    - love : 사랑합니다. ~를 사랑합니다로 주로 쓰임
+    - buy : 사다. ~를 사다가 주로 쓰임
+    - spend : 쓰다. 
+    - take : 취하다
+    - put : 넣다
+    - kill : 죽이다.
+3) 자동사 + 전치사 = 타동사 (중요함)
+- depend on, wait for, look after, take care of, object to, agree with, graduate from..
+    - 주로 이런 단어를 숙어로 외운다.
+    - look after : 돌보다.
+    - take care of : ~를 돌보다
+    - object to : ~를 반대하다.
+    - agree with : ~를 동의하다.
+    - graduate from : 졸업을 하다
+
 [^1]: 문장 성분의 하나로, 술어가 나타내는 동작이나 상태의 주체가 되는 말을 뜻한다. 
 [^2]: 문장 구성의 기본 골격이 되는 요소로서, '~이다', '~하다', '~다' 식으로 주어의 내용을 전개해주는 문장 성분으로 동사, 형용사, 체언(주어, 목적어)과 합쳐져 기본적인 문장의 성분을 이루는 말이다.
 [^3]: 사물의 성질이나 상태를 나타내는 품사

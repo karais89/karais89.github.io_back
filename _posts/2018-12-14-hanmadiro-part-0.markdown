@@ -414,6 +414,60 @@ eat
 - 대부분 자동사 타동사 가능하다. 어느게 더 많이 쓰이는지가 문제이다.
 - 예외적으로 숙어로 쓰이는 경우(자동사+전치사=타동사)는 외워서 처리를 하고, 나머지는 내가 쓰고 싶은데로 쓰자.
 
+### 형용사의 종류와 역할 1
+
+문장의 보어 / 명사 앞뒤에서 명사수식
+
+형용사의 종류 (1~6번까지 형용사 구, 나머지는 형용사 절)
+1. 형용사구
+2. 전치사구
+3. 동격삽입어구
+4. to부정사구
+5. 현재분사구
+6. 과거분사구
+7. 관계대명사절
+8. 관계부사절
+9. 동격의 that절
+
+1) 형용사 : 일반적인 형용사
+- beautiful, doubtful / emotional, accidental / important, constant / consicious, serious / desirable, able / absolute, pretty, particular
+- She is **beautiful**. (보어)
+- **Beautiful** woman is over there. (앞 수식)
+- A woman **beautiful** enough is over there. (뒤 수식)
+    - 간단하게는 짧으면 명사 앞에서 꾸며주고 길면 명사 뒤에 꾸며준다.
+
+2) 전치사구 : 보어, 명사 후치 수식
+- The story was **about her love and fate**. (보어)
+- The story **about her love and fate** was amazing. (명사 후치 수식)
+- The man is **in the room**. (보어)
+- The man **in the room** is waiting for you. (명사 후치 수식)
+
+3) 동격어구 : 명사 뒤 삽입형태로 수식
+- Barack Obama , **president of the United States**, will visit Canada next week.
+    - 미국에 대통령인 오바마는 다음주에 캐나다에 방문할 것이다. (콤마로 콤마로 수식해줌)
+
+4) To부정사구
+- He is **to leave this country**. (보어)
+    - 그는 떠날 이 도시를 떠날 예정이다.
+    - 우리나라에서는 be to 용법이라고 하는데 다 필요 없다.
+- He has a fate **to leave this country**. (명사 후치 수식)
+    - 그는 이 도시를 떠날 숙명을 가지고 있다.
+    - fate를 꾸며주는 것 처럼 해석이 됨.
+
+5) 현재분사: ~ing형
+- He is **studying**. (보어)
+- **Studying** student were quiet. (한 단어 짜리라 앞에서 수식 가능)
+- Students **studying** in the library were quiet. (명사 후치 수식)
+
+6) 과거분사 : ~p.p형
+- They were **blamed**. (보어)
+    - 그들은 욕을 먹었습니다.
+- The **blamed** people were angry. (앞 수식)
+    - 그 욕을 먹은 사람들은 화가 났다.
+- The people **blamed** severely were angry. (명사 후치 수식)
+    - 심하게 욕을 먹은 사람들은 화가 났다.
+- 불규칙 동사는 암기가 필요하다.
+
 [^1]: 문장 성분의 하나로, 술어가 나타내는 동작이나 상태의 주체가 되는 말을 뜻한다. 
 [^2]: 문장 구성의 기본 골격이 되는 요소로서, '~이다', '~하다', '~다' 식으로 주어의 내용을 전개해주는 문장 성분으로 동사, 형용사, 체언(주어, 목적어)과 합쳐져 기본적인 문장의 성분을 이루는 말이다.
 [^3]: 사물의 성질이나 상태를 나타내는 품사

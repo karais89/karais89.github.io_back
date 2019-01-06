@@ -264,33 +264,35 @@ woman beautiful이 틀린표현이라면 mission impossible도 틀린 표현 일
 ### 명사의 종류와 역할 2
 
 1) 명사 : 보통명사 vs 추상명사
-    - 보통명사 : a student, teachers, a factory, cars
-    - 추상명사 : love, nature, furniture, fruit, information
-    - 고유명사 : Korea, the United States, Yuna Kim
-    - 보통명사 : 셀 수 있고, 구체적으로 볼 수 있고, 구별할 수 있는 명사. (관사와 많이 쓴다)
-    - 추상명사 : 현실에 뚜렷히 존재 하지 않는.. (무관사로 많이 씀)
-    - 주어 역할 : **A studnet** visited you.
-    - 목적어 역할 : We need **a student.**
-    - 보어 역할 : He is **a studnet.**
-    - 전치사의 목적어 역할 : I came here for **a studnet.**
+- 보통명사 : a student, teachers, a factory, cars
+- 추상명사 : love, nature, furniture, fruit, information
+- 고유명사 : Korea, the United States, Yuna Kim
+- 보통명사 : 셀 수 있고, 구체적으로 볼 수 있고, 구별할 수 있는 명사. (관사와 많이 쓴다)
+- 추상명사 : 현실에 뚜렷히 존재 하지 않는.. (무관사로 많이 씀)
+- 주어 역할 : **A studnet** visited you.
+- 목적어 역할 : We need **a student.**
+- 보어 역할 : He is **a studnet.**
+- 전치사의 목적어 역할 : I came here for **a studnet.**
+
 2) 대명사 : 주격/목적격대명사
-    - I / me / for me
-    - He / him / about him
-    - They / them / with them
-    - who / whom / for whom
-    - 주어 : **I** want you.
-    - 목적어 : You want **me.**
-    - 보어 : It is **me.**
-    - 전치사의 목적어 : You think of **me.**
+- I / me / for me
+- He / him / about him
+- They / them / with them
+- who / whom / for whom
+- 주어 : **I** want you.
+- 목적어 : You want **me.**
+- 보어 : It is **me.**
+- 전치사의 목적어 : You think of **me.**
+
 3) 명사구 : 2개 이상의 단어
-    - People in the world
-    - the middle of the country
-    - people living in the world
-    - the country that blames Korea
-    - 주어 : **The country that blames Korea** in PRK. (PRK=북한)
-    - 목적어 : I hate **the country that blames Korea.**
-    - 보어 : It is **the country that blames Korea.**
-    - 전치사의 목적어 : I will fight against **the country that blames Korea.**
+- People in the world
+- the middle of the country
+- people living in the world
+- the country that blames Korea
+- 주어 : **The country that blames Korea** in PRK. (PRK=북한)
+- 목적어 : I hate **the country that blames Korea.**
+- 보어 : It is **the country that blames Korea.**
+- 전치사의 목적어 : I will fight against **the country that blames Korea.**
 
 ### 명사의 종류와 역할 3
 

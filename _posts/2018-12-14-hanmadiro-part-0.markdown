@@ -307,31 +307,33 @@ eat
 - eaten (먹히는 것)
 
 4) TO 부정사 : 전치사의 목적어로는 사용 X
-    - 주어 : **To study** is hard.
-    - 목적어 : I hate **to study.**
-    - 보어 : My plan is **to study.**
-    - ~~전치사의 목적어 : We had a discussion about **to study.**~~ (X)
+- 주어 : **To study** is hard.
+- 목적어 : I hate **to study.**
+- 보어 : My plan is **to study.**
+- ~~전치사의 목적어 : We had a discussion about **to study.**~~ (X)
+
 5) 동명사구(~ing) : 전치사의 목적어 사용 O
-    - 주어 : **Studying** is hard.
-    - 목적어 : I hate **studying.**
-    - 보어 : My hobby is **studying.**
-    - 전치사의 목적어 : He talked abount **studying.** (O)
+- 주어 : **Studying** is hard.
+- 목적어 : I hate **studying.**
+- 보어 : My hobby is **studying.**
+- 전치사의 목적어 : He talked abount **studying.** (O)
+
 6) 명사절 : 주어/동사가 포함된 명사
-    - That 절 : 전치사의 목적어로는 사용 X
-        - 주어 : **That he is a liar** is true.
-        - 목적어 : I know **that he is a liar.**
-        - 보어 : The point is **that he is a liar.**
-        - ~~전치사의 목적어 : He talked abount **that he is a liar.**~~ (X)
-    - What 절
-        - 주어 : **What I did** is different.
-        - 목적어 : I know **what I did.**
-        - 보어 : The point is **what I did.**
-        - 전치사의 목적어 : He talked abount **what I did.**
-    - How 절
-        - 주어 : **How you did it** is important.
-        - 목적어 : I know **how you did it.**
-        - 보어 : The point is **how you did it.**
-        - 전치사의 목적어 : He talked abount **how you did it.**
+- That 절 : 전치사의 목적어로는 사용 X
+    - 주어 : **That he is a liar** is true.
+    - 목적어 : I know **that he is a liar.**
+    - 보어 : The point is **that he is a liar.**
+    - ~~전치사의 목적어 : He talked abount **that he is a liar.**~~ (X)
+- What 절
+    - 주어 : **What I did** is different.
+    - 목적어 : I know **what I did.**
+    - 보어 : The point is **what I did.**
+    - 전치사의 목적어 : He talked abount **what I did.**
+- How 절
+    - 주어 : **How you did it** is important.
+    - 목적어 : I know **how you did it.**
+    - 보어 : The point is **how you did it.**
+    - 전치사의 목적어 : He talked abount **how you did it.**
 
 |역할      | 주어 | 목적어 | 보어 | 전치사의 목적어 |
 |--------- |---- |-----   |---- |--------------- |

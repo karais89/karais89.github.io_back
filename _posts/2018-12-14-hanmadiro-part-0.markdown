@@ -152,7 +152,7 @@ woman beautiful이 틀린표현이라면 mission impossible도 틀린 표현 일
 
 ## CHAPTER 1 - UNIT 3
 
-### 보어[^5]와 부사 찾기 1
+### 보어[^5]와 부사[^6] 찾기 1
 
 - 그녀는 결국 훌륭한 변호사가 되었다.
     - 주어 : 그녀는

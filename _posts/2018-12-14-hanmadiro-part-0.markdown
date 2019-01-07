@@ -527,6 +527,32 @@ eat
     - I got up only **to find her gone**. (결과)
 - TO부정사구는 기본적으로 아직은 하지 않았지만, 앞으로 뭘 할 상태를 나타낸다. 궁금한데로 간다. 얼마든지 다르게 번역이 될 수 있다. 영어는 추론을 한다.
 
+### 부사의 종류와 역할 2
+
+4) 현재분사구 : ~ing
+- He was standing there **waiting for someone**.
+    - 그는 거기 서있었습니다 누군가를 기다리면서 (동시동작, 부대상황)
+- **Reading a novel**, Sarah felt so happy.
+- Michael was scared, so, **walking through the door**, he kept silent.
+
+5) 과거분사구 : ~p.p
+- She sometimes feel lonely **when left alone**.
+    - leave - left - left
+    - when은 없어도 됨
+- **Written in ancient languages**, the letters were totally unreadable.
+    - 쓰여졌다 고대 언어로 / 그 글자는 읽기 힘들었다.
+- The man, **so much surprised**, never stopped screaming.
+    - 그 남자는 / 너무 놀라서 / 절대 소리 지르는 걸 멈추지 않았다.   
+
+6) 부사절 : 종속접속사절
+- **Because I love you**, I can't let you go.
+    - 내가 널 사랑하기 때문에 / 나는 널 보낼 수 없다.
+- Please let me know **as soon as you come to my office**.
+    - 니가 내 사무실에 오자마자 나에게 알려줘
+    - 접속사(as soon as ) + 주어 + 동사 = 부사
+- Bill Clienton, **while he was a Senator**, was already famous all over the US.
+    - 빌 클린턴은 유명했다 미국 전역에서 / 그가 상원의원인 동안에
+    - while (부사절 접속사)
 
 [^1]: 문장 성분의 하나로, 술어가 나타내는 동작이나 상태의 주체가 되는 말을 뜻한다.
  

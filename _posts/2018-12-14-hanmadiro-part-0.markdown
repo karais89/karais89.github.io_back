@@ -554,6 +554,44 @@ eat
     - 빌 클린턴은 유명했다 미국 전역에서 / 그가 상원의원인 동안에
     - while (부사절 접속사)
 
+## CHAPTER 3. 영어는 재활용이다
+
+이론적인 거라 실제로 겪어 보기전에는 완전히 이해하기 힘들다.
+
+그런가보다~ 까지만 이해하고, 큰 부담 가지지 말고 넘어가자. 공부를 끝내고 다시 한번 보는 용도가 가장 좋다.
+
+### UNIT 1. 전치사구 재활용
+
+- 영어는 조사가 없다.(은, 는, 이, 가..) Kibum Park 하나로 여러가지로 재활용 가능하다.
+    - **Kibum Park** is ugly (주어)
+    - I need **Kimbum Park** (목적어)
+    - This is **Kimbum Park** (보어)
+        - be 동사 뒤에 나와서 보어
+    - I heard about **Kimbum Park** (전치사의 목적어)
+
+전치사구의 역할
+- 부사와 형용사로 재활용 가능
+- for me, about it, of the people, by the river, on the table, under the hill...
+
+> 부사 adverb : 문장의 형용사나 동사, 부사를 더 자세하게 설명해 주고 꾸며 주는 역할을 하는 말
+
+1) 부사
+- He was staying **at the hotel**.
+    - 호텔에서
+- **In the country**, many people are starving.
+    - 나라에서
+- He bought a book **at the bookstore**.
+    - 서점에서
+
+2) 형용사
+- The rooms **at the hotel** were built with woods.
+    - 호텔에 있는
+    - 추론을 하기 때문에 해석이 달라진다.
+- I don't understand the people **in the country**.
+    - 그 나라에 있는
+- The meeting **at the bookstore** was held in honor of the owner.
+    - 서점에서 있었던, 서점에서의
+
 [^1]: 문장 성분의 하나로, 술어가 나타내는 동작이나 상태의 주체가 되는 말을 뜻한다.
  
 [^2]: 문장 구성의 기본 골격이 되는 요소로서, '~이다', '~하다', '~다' 식으로 주어의 내용을 전개해주는 문장 성분으로 동사, 형용사, 체언(주어, 목적어)과 합쳐져 기본적인 문장의 성분을 이루는 말이다.

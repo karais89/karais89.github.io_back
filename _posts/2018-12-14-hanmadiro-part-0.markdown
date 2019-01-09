@@ -592,6 +592,32 @@ eat
 - The meeting **at the bookstore** was held in honor of the owner.
     - 서점에서 있었던, 서점에서의
 
+### UNIT 2. TO부정사 재활용
+
+- 명사
+- 형용사
+- 부사
+
+1) 명사 : 주어, 목적어, 보어 역할
+- **To win the Nobel Prize** is my dream.
+- I really want **to win the Nobel Prize**.
+- My dream is **to win the Nobel Prize**.
+
+2) 형용사
+- I have a lot of homework **to finish tonight**.
+- They had a plan **to develop their community**.
+    - 개발할 계획
+- The train was about **to leave the station**.
+    - about: 대략, ~에 관해서
+
+3) 부사
+- I am glad **to see you again**.
+- She was surprised **to find he was gone**.
+- Sera visited me **to talk about our assignment**.
+- Everybody lives **to eat**.
+- Billy ran out of the room **only to find her gone**.
+
+
 [^1]: 문장 성분의 하나로, 술어가 나타내는 동작이나 상태의 주체가 되는 말을 뜻한다.
  
 [^2]: 문장 구성의 기본 골격이 되는 요소로서, '~이다', '~하다', '~다' 식으로 주어의 내용을 전개해주는 문장 성분으로 동사, 형용사, 체언(주어, 목적어)과 합쳐져 기본적인 문장의 성분을 이루는 말이다.

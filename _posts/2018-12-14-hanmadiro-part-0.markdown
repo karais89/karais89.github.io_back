@@ -617,6 +617,28 @@ eat
 - Everybody lives **to eat**.
 - Billy ran out of the room **only to find her gone**.
 
+### UNIT 3. ING 재활용
+
+- 명사
+- 형용사
+- 부사
+
+1) 명사 : 주어, 목적어, 보어, 전명구에 사용
+- **Drawing a picture every weekend** is my hobby
+- I enjoy **drawing a picture every weekend**.
+- My hobby is **drawing a picture every weekend**.
+- I make money for **drawing a picture every weekend**.
+
+2) 형용사 : 보어 혹은 명사 수식에 사용
+- The **sleeping** baby is my daughter.
+- The baby **sleeping** in the room is my daughter.
+- My baby is **sleeping** in the room.
+
+3) 부사 : 현재분사구문
+- **Reading a newspaper**, he seemed not to have noticed me.
+    - 신문을 보느라 그는 나를 알아차리지 못햇다
+- Many people were gathering there **waiting for the speech of their president**.
+    - 사람들이 기다리면서 모여들고 있었다 대통령의 연설을
 
 [^1]: 문장 성분의 하나로, 술어가 나타내는 동작이나 상태의 주체가 되는 말을 뜻한다.
  

@@ -144,12 +144,7 @@ public class Kata
 
 ## Jekyll Blog error
 
-아래 소스 부분에서 계속해서 에러가 난다. 왜 나는지도 모르겠음
-
-```csharp
-Dictionary<char,int> lefts = new Dictionary<char, int>(){{'w',4}, {'p',3}, {'b',2}, {'s',1}};
-Dictionary<char,int> rights = new Dictionary<char,int>(){{'m',4}, {'q',3}, {'d',2}, {'z',1}};
-```
+딕셔너리 소스 부분에서 계속해서 에러가 난다. (블로그 자체가 업데이트 되지 않는 현상)
 
 에러 메일은 아래와 같다.
 

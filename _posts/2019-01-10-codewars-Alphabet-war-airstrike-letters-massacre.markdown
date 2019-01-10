@@ -145,15 +145,3 @@ public class Kata
 ## Jekyll Blog error
 
 딕셔너리 소스 부분에서 계속해서 에러가 난다. (블로그 자체가 업데이트 되지 않는 현상)
-
-에러 메일은 아래와 같다.
-
-The page build failed for the `master` branch with the following error:
-
-The variable `{{'w',4}` on line 120 in `_posts/2019-01-10-codewars-Alphabet-war-airstrike-letters-massacre.markdown` was not properly closed with `}}`. For more information, see https://help.github.com/articles/page-build-failed-tag-not-properly-terminated/.
-
-For information on troubleshooting Jekyll see:
-
-  https://help.github.com/articles/troubleshooting-jekyll-builds
-
-If you have any questions you can contact us by replying to this email.

@@ -125,7 +125,9 @@ public class Kata
   public static string AlphabetWar(string fight)
   {
     Regex rgx = new Regex(@"\w{0,1}[*+]\w{0,1}");
-    Dictionary<char, int> lefts = new Dictionary<char, int>(){ { 'w', 4 }, { 'p', 3 }, { 'b', 2 }, { 's', 1 w} };
+    Dictionary<char, int> lefts = new Dictionary<char, int>() { 
+      { 'w', 4 }, { 'p', 3 }, { 'b', 2 }, { 's', 1 } 
+    };
     int leftPower = 0;
     int rightPower = 0;
     string afterBombing = rgx.Replace(fight, "");

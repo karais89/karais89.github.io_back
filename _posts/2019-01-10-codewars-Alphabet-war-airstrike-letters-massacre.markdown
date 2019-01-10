@@ -142,6 +142,16 @@ public class Kata
 * 문자를 제거하는 부분을 정규 표현식을 사용하여 코드의 길이를 줄였다.
 나머지 점수를 구하는 방식은 똑같다.
 
+## Jekyll Blog error
+
+아래 소스 부분에서 계속해서 에러가 난다. 왜 나는지도 모르겠음
+
+```csharp
+Dictionary<char,int> lefts = new Dictionary<char, int>(){{'w',4}, {'p',3}, {'b',2}, {'s',1}};
+Dictionary<char,int> rights = new Dictionary<char,int>(){{'m',4}, {'q',3}, {'d',2}, {'z',1}};
+```
+
+에러 메일은 아래와 같다.
 
 The page build failed for the `master` branch with the following error:
 

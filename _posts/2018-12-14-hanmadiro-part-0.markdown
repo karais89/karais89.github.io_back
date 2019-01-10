@@ -640,6 +640,31 @@ eat
 - Many people were gathering there **waiting for the speech of their president**.
     - 사람들이 기다리면서 모여들고 있었다 대통령의 연설을
 
+### UNIT 4. P.P형 재활용
+
+- 형용사
+- 부사
+- 완료시제
+
+1) 형용사 : 보어 혹은 명사 수식
+- My father was a very well **educated** man. (뒤 명사를 수식하는 형용사)
+- We have some personnels **educated** exactly for this task. (앞 명사를 수식하는 형용사)
+- The company was **established** in 1896. (보어)
+
+2) 부사 : 과거분사구문
+- **Prepared for the next exam**, I felt much confident at that moment.
+- They were at a loss **when accused of felony**.
+    - at a loss : 상실감에 빠져있다, 당황스런 상황
+    - accuse : 고소하다, 기소하다
+    - felony : 중범죄
+- Sarash, **found to be guilty**, is going to be put in jail.
+
+3) 완료시제 : have p.p / had p.p
+- We **have known** him for a couple of years.
+- I **have** never **been** to Africa before.
+- Stella **had** never **met** him before he showed up that night.
+    - 과거보다 더 과거 일때 had p.p
+
 [^1]: 문장 성분의 하나로, 술어가 나타내는 동작이나 상태의 주체가 되는 말을 뜻한다.
  
 [^2]: 문장 구성의 기본 골격이 되는 요소로서, '~이다', '~하다', '~다' 식으로 주어의 내용을 전개해주는 문장 성분으로 동사, 형용사, 체언(주어, 목적어)과 합쳐져 기본적인 문장의 성분을 이루는 말이다.

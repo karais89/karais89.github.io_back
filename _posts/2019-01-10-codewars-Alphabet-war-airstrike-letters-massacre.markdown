@@ -115,7 +115,30 @@ String을 Char 배열로 만든 후에 *의 제거 처리를 하고, 점수를 �
 ## Best Practices
 
 ```csharp
-
+using System;
+using System.Text;
+using System.Text.RegularExpressions;
+using System.Linq;
+using System.Collections.Generic;
+public class Kata
+{
+  public static string AlphabetWar(string fight)
+  {
+    Regex rgx = new Regex(@"\w{0,1}[*+]\w{0,1}");
+    Dictionary<char,int> lefts = new Dictionary<char, int>(){{'w',4}, {'p',3}, {'b',2}, {'s',1}};
+    Dictionary<char,int> rights = new Dictionary<char,int>(){{'m',4}, {'q',3}, {'d',2}, {'z',1}};
+    int leftPower = 0;
+    int rightPower = 0;
+    string afterBombing = rgx.Replace(fight, "");
+    foreach(char c in afterBombing)
+    {
+      if(lefts.ContainsKey(c)) leftPower += lefts[c];
+      else if(rights.ContainsKey(c)) rightPower += rights[c];
+    }
+    if (leftPower == rightPower) return "Let's fight again!";
+    else return (leftPower > rightPower)? "Left side wins!":"Right side wins!";
+  }
+}
 ```
 
 * 문자를 제거하는 부분을 정규 표현식을 사용하여 코드의 길이를 줄였다.

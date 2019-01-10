@@ -125,6 +125,8 @@ public class Kata
   public static string AlphabetWar(string fight)
   {
     Regex rgx = new Regex(@"\w{0,1}[*+]\w{0,1}");
+    Dictionary<char,int> lefts = new Dictionary<char, int>(){ {'w',4}, {'p',3}, {'b',2}, {'s',1} };
+    Dictionary<char,int> rights = new Dictionary<char,int>(){ {'m',4}, {'q',3}, {'d',2}, {'z',1} };
     int leftPower = 0;
     int rightPower = 0;
     string afterBombing = rgx.Replace(fight, "");
@@ -141,3 +143,13 @@ public class Kata
 
 * 문자를 제거하는 부분을 정규 표현식을 사용하여 코드의 길이를 줄였다.
 나머지 점수를 구하는 방식은 똑같다.
+
+The page build failed for the `master` branch with the following error:
+
+The variable `{{'w',4}` on line 120 in `_posts/2019-01-10-codewars-Alphabet-war-airstrike-letters-massacre.markdown` was not properly closed with `}}`. For more information, see https://help.github.com/articles/page-build-failed-tag-not-properly-terminated/.
+
+For information on troubleshooting Jekyll see:
+
+  https://help.github.com/articles/troubleshooting-jekyll-builds
+
+If you have any questions you can contact us by replying to this email.

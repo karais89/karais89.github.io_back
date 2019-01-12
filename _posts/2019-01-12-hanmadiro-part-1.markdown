@@ -62,3 +62,56 @@ tags: [english]
 내용은 똑같지만 "어순" 혹은 "순서"만 다르다.
 
 우리말에서도 다양한 명사가 있다. 국어를 잘하는 사람은 영어를 잘할 수 밖에 없다.
+
+### 주어 만들기 서론 3
+
+> 명사는 주어, 목적어, 보어, 전치사의 목적어 역할을 할 수 있다.
+
+1) 대명사
+- it
+- It을 주어, 목적어, 보어, 전치사의 목적어로 응용하기
+    - **It** is good. (주어)
+    - I love **it**. (목적어)
+    - This is **it**. (보어) be 동사 뒤는 보어로 많이 쓰인다.
+    - Let me talk about **it**. (전치사 + 명사 (전명구))
+
+2) 명사
+- Tom
+- Tom을 주어, 목적어, 보어, 전치사의 목적어로 응용하기
+    - **Tom** is good. (주어)
+    - I love **Tom**. (목적어)
+    - This is **Tom**. (보어) be 동사 뒤는 보어로 많이 쓰인다.
+    - Let me talk about **Tom**. (전치사 + 명사 (전명구))
+
+3) 명사구
+- One of them
+- One of them을 주어, 목적어, 보어, 전치사의 목적어로 응용하기
+    - **One of them** is good. (주어)
+    - I love **one of them**. (목적어)
+    - This is **one of them**. (보어) be 동사 뒤는 보어로 많이 쓰인다.
+    - Let me talk about **one of them**. (전치사 + 명사 (전명구))
+
+4) To V
+- To study English
+- To study English을 주어, 목적어, 보어, ~~전치사의 목적어(X)~~로 응용하기
+    - **To study English** is good. (주어)
+    - I love **to study English**. (목적어)
+    - This is **to study English**. (보어 의미가 어색해서 X)
+    - Let me talk about **to study English**. (전치사의 목적어 X)
+        - 전치사 다음에는 To 가 못온다 ING만 올 수 있다. 이건 외워야 됨!
+
+5) V-ing
+- Studying English
+- Studying English을 주어, 목적어, 보어, 전치사의 목적어로 응용하기
+    - **Studying English** is good. (주어)
+    - I love **studying English**. (목적어)
+    - This is **studying English**. (보어 의미가 어색해서 X)
+    - Let me talk about **studying English**. (전치사 + 명사 (전명구))
+
+6) 명사절
+- Why you love me
+- Why you love me을 주어, 목적어, 보어, 전치사의 목적어로 응용하기
+    - **Why you love me** is a non-sense. (주어)
+    - I know **why you love me**. (목적어)
+    - This is **why you love me**. (보어)
+    - Let me talk about **why you love me**. (전치사 + 명사 (전명구))

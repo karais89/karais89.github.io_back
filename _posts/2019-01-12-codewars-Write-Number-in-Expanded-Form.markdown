@@ -2,7 +2,7 @@
 layout: post
 title: "[Codewars #28] Write Number in Expanded Form (6kyu)"
 excerpt: "[Codewars #28] Write Number in Expanded Form (6kyu) 문제 풀이"
-date: 2019-01-12 23:54:00 +0900
+date: 2019-01-12 23:58:00 +0900
 tags: [codewars, kata]
 ---
 

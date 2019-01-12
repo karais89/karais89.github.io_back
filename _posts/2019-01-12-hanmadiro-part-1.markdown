@@ -96,7 +96,7 @@ tags: [english]
 - To study English을 주어, 목적어, 보어, ~~전치사의 목적어(X)~~로 응용하기
     - **To study English** is good. (주어)
     - I love **to study English**. (목적어)
-    - This is **to study English**. (보어 의미가 어색해서 X)
+    - This is **to study English**. (보어 의미가 어색해서 X) -> 이 문장에서 X
     - Let me talk about **to study English**. (전치사의 목적어 X)
         - 전치사 다음에는 To 가 못온다 ING만 올 수 있다. 이건 외워야 됨!
 
@@ -105,7 +105,7 @@ tags: [english]
 - Studying English을 주어, 목적어, 보어, 전치사의 목적어로 응용하기
     - **Studying English** is good. (주어)
     - I love **studying English**. (목적어)
-    - This is **studying English**. (보어 의미가 어색해서 X)
+    - This is **studying English**. (보어 의미가 어색해서 X) -> 이 문장에서 X
     - Let me talk about **studying English**. (전치사 + 명사 (전명구))
 
 6) 명사절

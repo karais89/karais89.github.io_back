@@ -61,7 +61,7 @@ public static class Kata
 
 builder를 사용하여 풀었고, 저번에 문제를 풀다 보니 맨 처음에만 검사를 해서 기호를 넣어주면 쉽게 해결이 되는 부분이 있어서 그게 생각나서 그렇게 풀어 봤다.
 
-[[Codewars #13] Help the bookseller (6kyu) Best Practices 2](({% post_url 2019-01-05-codewars-Help-the-bookseller %}))에서 사용한 방식
+[Codewars #13 Help the bookseller (6kyu) Best Practices 2]({% post_url 2019-01-05-codewars-Help-the-bookseller %})에서 사용한 방식
 
 ## Best Practices 1
 

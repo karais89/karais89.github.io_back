@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "[Codewars #31] Build a pile of Cubes (6kyu)"
-excerpt: "[Codewars #31] Build a pile of Cubes (6kyu) 문제 풀이"
+title: "[Codewars #32] Persistent Bugger (6kyu)"
+excerpt: "[Codewars #32] Persistent Bugger (6kyu) 문제 풀이"
 date: 2019-01-15 17:58:00 +0900
 tags: [codewars, kata]
 ---

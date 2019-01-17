@@ -115,3 +115,33 @@ tags: [english]
     - I know **why you love me**. (목적어)
     - This is **why you love me**. (보어)
     - Let me talk about **why you love me**. (전치사 + 명사 (전명구))
+
+### 주어 만들기 서론 4
+
+"그녀의 고향"이라는 명사를 주어, 목적어, 보어, 전치사의 목적어로 활용 "her home town"
+
+- **그녀의 고향**은 서울입니다.
+    - 주어
+    - **Her home town** is Seoul
+- 나는 **그녀의 고향**을 압니다.
+    - 목적어
+    - I know **her home town**
+- 여기가 **그녀의 고향**입니다.
+    - 보어
+    - Here(This) is **her home town**
+- **그녀의 고향**에 대해 제가 질문해도 되나요?
+    - 전치사의 목적어
+    - Can I ask a question about **her home town?**
+
+"영화보는 것"이라는 명사를 주어, 목적어, 보어, 전치사의 목적어로 활용 "watching a movie"
+
+- **영화보는 것**은 그녀의 취미입니다
+    - 주어
+    - **Watching a movie** is her hobby.
+- 그녀는 나와 함께 **영화보는 것**을 좋아하니다.
+    - 목적어
+    - She likes **watching a movie** with me.
+- 나의 취미 역시 **영화보는 것**입니다.
+    - My hobby is **watching a movie** too.
+- 우리는 **영화보는 것**을 위하여 많은 돈을 썻습니다.
+    - We spent much money for **watching a movie**

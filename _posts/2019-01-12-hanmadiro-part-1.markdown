@@ -145,3 +145,24 @@ tags: [english]
     - My hobby is **watching a movie** too.
 - 우리는 **영화보는 것**을 위하여 많은 돈을 썻습니다.
     - We spent much money for **watching a movie**
+
+## CHAPTER 1 - UNIT 1
+
+주어에는 6가지 종류가 있다.
+
+대명사, 명사, 명사구의 주어는 생략한다 (쉽다)
+
+TO부정사, ING, 명사절 복잡한 주어로 구성된 문장을 연습한다.
+
+### TO부정사 주어 1
+
+- 진지한 검토 없이 우리 마을에 새 공장을 세우는 것은 좋은 생각이 아니다
+    - 진지한 검토 없이 우리 마을에 새 공장을 세우는 것은 (주어)
+        - 세우는 것 / 새 공장을 / 우리 마을에 / 진지한 검토 없이
+        - To build / a new factory / in our town / without serious consideration
+    - 좋은 생각이 아니다 (서술어)
+        - is not a good idea.
+    - It is not a good idea to build a new factory in our town without serious consideration
+        - 가주어/진주어
+        - It은 뜻이 있다.
+- 앞으로 3년안에 최대한 많은 나라를 방문하는 것이 내 꿈이다.

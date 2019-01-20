@@ -165,4 +165,9 @@ TO부정사, ING, 명사절 복잡한 주어로 구성된 문장을 연습한다
     - It is not a good idea to build a new factory in our town without serious consideration
         - 가주어/진주어
         - It은 뜻이 있다.
+
+### TO부정사 주어 2
+
 - 앞으로 3년안에 최대한 많은 나라를 방문하는 것이 내 꿈이다.
+    - 앞으로 3년안에 최대한 많은 나라를 방문하는 것이 (주어)
+    - It is my dream / to visit / as many countries / as possible / in 3 years / from now.

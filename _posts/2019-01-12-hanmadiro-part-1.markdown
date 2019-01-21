@@ -178,4 +178,10 @@ TO부정사, ING, 명사절 복잡한 주어로 구성된 문장을 연습한다
     - 단지 당신이 가난하다고 해서 별다른 근거없이 자신을 쓸모없다고 여기는 것(주어)
     - 어리석은 짓이다 (서술어)
     - It is stupid / to regard / yourself / as useless (one) / without specific ground / just because you are poor
-- 풍부한 미네랄을 포함하는 물을 매일 5잔 이상 마시는 것은 당신의 건각을 위해 매우 좋다.
+
+### TO부정사 주어 4
+
+- 풍부한 미네랄을 포함하는 물을 매일 5잔 이상 마시는 것은 당신의 건강을 위해 매우 좋다.
+    - 풍부한 미네랄을 포함하는 물을 매일 5잔 이상 마시는 것은 (주어)
+    - 당신의 건강을 위해 매우 좋다. (서술어)
+    - It is very beneficial / for your health / to drink / everyday / more / than 5 glasses / of water / containing / abundant minerals.

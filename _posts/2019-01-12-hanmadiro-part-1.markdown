@@ -185,3 +185,10 @@ TO부정사, ING, 명사절 복잡한 주어로 구성된 문장을 연습한다
     - 풍부한 미네랄을 포함하는 물을 매일 5잔 이상 마시는 것은 (주어)
     - 당신의 건강을 위해 매우 좋다. (서술어)
     - It is very beneficial / for your health / to drink / everyday / more / than 5 glasses / of water / containing / abundant minerals.
+
+### TO부정사 주어 5
+
+- 모든 사람들이 수긍하는 적절한 근거없이 남들을 비난하는 것은 옳지 않다.
+    - It is not right / to blame / others (other people) / without proper ground / (that) everyone agrees to.
+
+- 나는 스터디그룹에서 다른 사람들과 함께 공부하는 것보다 도서관에서 혼자 공부하는걸 선호한다.

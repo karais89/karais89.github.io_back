@@ -198,3 +198,36 @@ TO부정사, ING, 명사절 복잡한 주어로 구성된 문장을 연습한다
     - 목적어 연습용 문장
     - I prefer / to study / alone (by myself) / in the library / than / to study / (together) / with others / in a study group.
     - A than B
+
+## CHAPTER 1 - UNIT 2
+
+### ING(동명사) 주어 1
+
+동명사는 ing형의 여러가지 이름 중 하나 입니다.
+
+- 그 자동차는 / 새거다.
+    - 명사 주어
+    - The car is brandnew.
+- 커피 마시는 것은 / 건강에 좋다.
+    - 동명사 주어
+    - Drinking coffee is good for health.
+
+- Go
+    - Going / to North Korea / with kim taehee / next year / is illegal. 
+        - 가는 것 / 북한으로 / 김태희랑 / 내년에 / 불법이다.
+        - 주어 : Going / to North Korea / with kim taehee / next year
+        - 서술어 : is illegal.
+        - It is illegal
+    - 주어
+    - 목적어
+        - I enjoyed / **going to North Korea with kim taehee last year**
+    - 보어
+        - My plan is / **going to North Korea with kim taehee next year**
+            - 계획은 미래를 나타내기 때문에 going 보다는 to go가 더 낫긴 하다.
+    - 전명구
+        - I talked about / **going to North Korea with kim taehee next year**
+- Water
+    - **Water** is important
+    - I need **water**.
+    - This is **water**.
+    - I heard about **water**.

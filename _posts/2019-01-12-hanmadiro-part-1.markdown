@@ -191,4 +191,10 @@ TO부정사, ING, 명사절 복잡한 주어로 구성된 문장을 연습한다
 - 모든 사람들이 수긍하는 적절한 근거없이 남들을 비난하는 것은 옳지 않다.
     - It is not right / to blame / others (other people) / without proper ground / (that) everyone agrees to.
 
+### TO부정사 주어 6
+
 - 나는 스터디그룹에서 다른 사람들과 함께 공부하는 것보다 도서관에서 혼자 공부하는걸 선호한다.
+    - 나는 (주어)
+    - 목적어 연습용 문장
+    - I prefer / to study / alone (by myself) / in the library / than / to study / (together) / with others / in a study group.
+    - A than B

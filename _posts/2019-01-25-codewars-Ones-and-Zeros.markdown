@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "[Codewars #52]  Ones and Zeros (7kyu)"
-excerpt: "[Codewars #52]  Ones and Zeros (7kyu) 문제 풀이"
+title: "[Codewars #52] Ones and Zeros (7kyu)"
+excerpt: "[Codewars #52] Ones and Zeros (7kyu) 문제 풀이"
 date: 2019-01-25 23:53:00 +0900
 tags: [codewars, kata]
 ---

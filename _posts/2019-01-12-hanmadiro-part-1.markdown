@@ -231,3 +231,20 @@ TO부정사, ING, 명사절 복잡한 주어로 구성된 문장을 연습한다
     - I need **water**.
     - This is **water**.
     - I heard about **water**.
+
+### ING(동명사) 주어 2
+
+- 지금보다 훨씬 더 많은 직원들을 고용하는 것은 돈 낭비이다.
+    - 주어 : 지금보다 훨씬 더 많은 직원들을 고용하는 것은
+    - 서술어 : 돈 낭비이다.
+    - 고용하는 것 / 훨씬 더 많은 직원들을 / 지금보다 / 돈 낭비이다
+    - Hiring / much more employees / than now / is waste of money.
+    - 지금보다 훨씬 더 많은 책을 읽는 것은 시간 낭비이다.
+        - Reading much more books than now is waste of time.
+- 이 보고서를 다음주 월요일까지 완성하는 건 나에게 거의 불가능하다.
+    - 주어 : 이 보고서를 다음주 월요일까지 완성하는 건
+    - 서술어 : 나에게 거의 불가능하다.
+    - Completing / this report / by next Monday(Monday next week) / is almost imposible for me
+    - 이 책을 다음 주 월요일까지 끝내는 건 나에게 거의 불가능하다.
+        - Finishing this book by next Monday is almost impossible for me
+    - It is almost impossible for me completing this report by next Monday.

@@ -248,3 +248,18 @@ TO부정사, ING, 명사절 복잡한 주어로 구성된 문장을 연습한다
     - 이 책을 다음 주 월요일까지 끝내는 건 나에게 거의 불가능하다.
         - Finishing this book by next Monday is almost impossible for me
     - It is almost impossible for me completing this report by next Monday.
+
+### ING(동명사) 주어 3
+
+- 임시 직원에게 충분한 관심을 주는것은 고용주의 기본적인 의무이다.
+    - part-time worker 임시직원, 아르바이트
+    - pay attention 관심을 주다
+    - employer 고용주
+    - basic 기본적인
+    - duty 의무
+    - 주어 : 임시 직원에게 충분한 관심을 주는것은
+    - 서술어 : 고용주의 기본적인 의무이다.
+    - Paying / enough attention / to temporary employees / is a basic duty / of employers.
+- 이번에 이 광고를 선택하는것은 당신의 회사에 큰 혜택을 가져올 것이다.
+    - 주어 : 이번에 이 광고를 선택하는것은
+    - Choosing / this advertisement / this time / will bring a huge benefit / to your company

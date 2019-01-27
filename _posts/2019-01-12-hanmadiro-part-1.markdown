@@ -263,3 +263,16 @@ TO부정사, ING, 명사절 복잡한 주어로 구성된 문장을 연습한다
 - 이번에 이 광고를 선택하는것은 당신의 회사에 큰 혜택을 가져올 것이다.
     - 주어 : 이번에 이 광고를 선택하는것은
     - Choosing / this advertisement / this time / will bring a huge benefit / to your company
+
+### ING(동명사) 주어 4
+
+- 이 기계를 최적의 상태로 유지하는 것은 그 경쟁에서 승리하기 위해 매우 중요하다.
+    - optimal : 최적의
+    - maintain : 유지하다
+    - competition : 경쟁 
+    - 주어 : 이 기계를 최적의 상태로 유지하는 것
+    - 서술어 : 그 경쟁에서 승리하기 위해 매우 중요하다.
+    - 서술어도 길기 때문에 가주어 진주어를 안해도 된다.
+    - Maintaining / this machine / in optimal condition / is very important / for winning (in order to win) / in the competition
+    - Maintaining is very important. 에서 시작 되었다.
+- 당신의 인생을 그런 남자를 위해 낭비하는건 좋은 생각이 아니다.

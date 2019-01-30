@@ -275,4 +275,23 @@ TO부정사, ING, 명사절 복잡한 주어로 구성된 문장을 연습한다
     - 서술어도 길기 때문에 가주어 진주어를 안해도 된다.
     - Maintaining / this machine / in optimal condition / is very important / for winning (in order to win) / in the competition
     - Maintaining is very important. 에서 시작 되었다.
-- 당신의 인생을 그런 남자를 위해 낭비하는건 좋은 생각이 아니다.
+
+### ING(동명사) 주어 5
+
+- 당신의 인생을 그런 남자를 위해 낭비하는 것은 좋은 생각이 아니다.
+    - 주어: 당신의 인생을 그런 남자를 위해 낭비하는 것은
+    - such a 명사 : 그런(따위) ~
+    - Wasting / your life / for such a man / is not a good idea.
+    - It is not a good idea wasting your life for such a man.
+- 못생긴 남자와 지루한 영화를 보는 건 그녀에게 별난 일이 아니었다.
+    - 주어 : 못생긴 남자와 지루한 영화를 보는 건
+    - Watching / a boring movie / with an ugly man / was not uncommon / for her
+    - bore : 지루하게 하다
+    - boring : 지루하게 하는
+    - common : 흔한
+    - uncommon : 별난
+- 재미없는 책을 읽는 것이 재미없는 여자와 데이트하는 것보다 훨씬 낫다
+    - 주어 : 재미없는 책을 읽는 것
+    - Reading / a boring book / is much better / than dating / (with) a boring woman.
+    - than : ~보다
+    - A is better than B

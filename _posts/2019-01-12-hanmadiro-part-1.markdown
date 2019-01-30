@@ -295,3 +295,14 @@ TO부정사, ING, 명사절 복잡한 주어로 구성된 문장을 연습한다
     - Reading / a boring book / is much better / than dating / (with) a boring woman.
     - than : ~보다
     - A is better than B
+
+### ING(동명사) 주어 6
+
+- 오늘 당신의 아내를 화나게 만드는 건 내일 당신을 미치게 할 거다.
+    - 주어 : 오늘 당신의 아내를 화나게 만드는 건
+    - Making / your wife / angry / today / will make / you(yourself) / crazy / tomorrow.
+- 나쁜 아내와 한 집에 사는 건 황야에서 혼자 사는 것보다 훨씬 나쁘다.
+    - 주어 : 나쁜 아내와 한 집에 사는 건
+    - the same : 똑같은
+    - bad - worse - worst
+    - Living / with a bad wife / in the same house / is much worse than living alone in the wild.

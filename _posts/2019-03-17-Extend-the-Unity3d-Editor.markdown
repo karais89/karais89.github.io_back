@@ -5,8 +5,13 @@ excerpt: "Extend the Unity3d Editor 번역"
 date: 2019-03-17 09:14:00 +0900
 tags: [raywenderlich, unity3d]
 ---
+* TOC
+{:toc}
 
+원문
 - https://www.raywenderlich.com/939-extend-the-unity3d-editor
+
+# Extend the Unity3d Editor
 
 이 튜토리얼에서는 유니티 에디터를 확장하여 게임의 필요에 맞게 유니티 에디터를 커스텀 하는법을 배웁니다.
 
@@ -55,7 +60,7 @@ tags: [raywenderlich, unity3d]
 
 Unity3D 편집기를 대폭 재구성 할 수 있는 힘을 제공하지만 필드 숨기기, 툴팁 표시 또는 헤드 라인 추가 등 약간의 조정 만 필요한 경우도 있습니다. 원치 않는 필드를 숨기고 다른 것을 보호하는 것은 속성에 대한 두 가지 유스 케이스입니다.
 
-## 공개 필드 숨기기 - [HideInInspector]
+### 공개 필드 숨기기 - [HideInInspector]
 
 기본값에 따라 MonoBehavior의 모든 public 필드는 Inspector에 표시되지만 때로는 모든 것을 원하지 않는 경우도 있습니다. 가끔은 다음과 같이하고 싶을 때가 있습니다.
 
@@ -122,7 +127,7 @@ public Vector3 targetPosition;
 필드, 메서드 또는 클래스에 영향을 주어야하며, 여러 속성을 결합 할 수도 있습니다.
 ```
 
-## [RequireComponent] : 실수로 Component 제거 방지
+### [RequireComponent] : 실수로 Component 제거 방지
 
 OpenSpot 프리팹에서 이것을 시도해 배치가 항상 예상대로 작동하게 하십시오.
 
@@ -149,7 +154,7 @@ Inspector에서 Assets/Prefabs 폴더에있는 OpenSpot 프리팹에서 Collider
 
 ![screenshot2-480x106](/images/unity3d/extend-the-unity3d/RequireComponentWarning.png)
 
-## 기타 흥미로운 태그들
+### 기타 흥미로운 태그들
 
 위에서 작업 한 것들 외에도 멋진 속성이 많이 있습니다. 간략한 개요는 다음과 같습니다.
 

@@ -45,60 +45,61 @@ Subject<T>를 사용하여 값을 발행하고 통지할 수 있습니다.
 ![](/images/unity3d/2019-09-14-1.png)
 
 OnVisibleScript.cs
+```csharp
+using System;
+using UniRx;
+using UnityEngine;
 
-    using System;
-    using UniRx;
-    using UnityEngine;
+/// <summary>
+/// 게임오브젝트가 카메라에 찍힌 것을 통지하는 스크립트
+/// </summary>
+public class OnVisibleScript : MonoBehaviour
+{
+    /// <summary>
+    /// 카메라에 비친 게임오브젝트를 흐르는 스트림
+    /// </summary>
+    private Subject<GameObject> onVisibleStream = new Subject<GameObject>();
+
+    /// <summary>
+    /// 외부에 공개하는 Observable
+    /// </summary>
+    public IObservable<GameObject> OnVisibleObservable => onVisibleStream.AsObservable();
     
     /// <summary>
-    /// 게임오브젝트가 카메라에 찍힌 것을 통지하는 스크립트
+    /// 카메라에 찍힐 때 실행되는 Unity 전용 콜백
     /// </summary>
-    public class OnVisibleScript : MonoBehaviour
+    private void OnBecameVisible()
     {
-        /// <summary>
-        /// 카메라에 비친 게임오브젝트를 흐르는 스트림
-        /// </summary>
-        private Subject<GameObject> onVisibleStream = new Subject<GameObject>();
-    
-        /// <summary>
-        /// 외부에 공개하는 Observable
-        /// </summary>
-        public IObservable<GameObject> OnVisibleObservable => onVisibleStream.AsObservable();
-        
-        /// <summary>
-        /// 카메라에 찍힐 때 실행되는 Unity 전용 콜백
-        /// </summary>
-        private void OnBecameVisible()
-        {
-            // OnNext에서 자신의 게임오브젝트를 스트림에 흐르게 한다.
-            onVisibleStream.OnNext(gameObject);
-        }
+        // OnNext에서 자신의 게임오브젝트를 스트림에 흐르게 한다.
+        onVisibleStream.OnNext(gameObject);
     }
+}
+```
 
 ObserveScript.cs
+```csharp
+using UniRx;
+using UnityEngine;
 
-    using UniRx;
-    using UnityEngine;
-    
-    /// <summary>
-    /// 대상을 감시하는 측면
-    /// </summary>
-    public class ObserveScript : MonoBehaviour
+/// <summary>
+/// 대상을 감시하는 측면
+/// </summary>
+public class ObserveScript : MonoBehaviour
+{
+    // 관측 대상의 GameObject
+    public GameObject targetCube;
+
+    private void Start()
     {
-        // 관측 대상의 GameObject
-        public GameObject targetCube;
-    
-        private void Start()
-        {
-            // OnVisibleScript를 획득
-            var targetOnvisibleScript = targetCube.GetComponent<OnVisibleScript>();
-            
-            // Subscribe에서 값을 구독한다.
-            targetOnvisibleScript.OnVisibleObservable
-                .Subscribe(Debug.Log);
-        }
+        // OnVisibleScript를 획득
+        var targetOnvisibleScript = targetCube.GetComponent<OnVisibleScript>();
+        
+        // Subscribe에서 값을 구독한다.
+        targetOnvisibleScript.OnVisibleObservable
+            .Subscribe(Debug.Log);
     }
-
+}
+```
 이제 OnVisibleScript가 할당된 게임오브젝트가 카메라에 찍힌 순간에 OnVisibleObservable의 값이 흐릅니다. OnVisibleObservable을 모니터링하는 ObserveScript가 그것을 감지하고 Debug.Log가 실행됩니다.
 
 OnNext()는 값을 통지합니다. "Event를 발화하는 것(Invoke)" 것과 같은 처리에 해당됩니다.
@@ -122,34 +123,35 @@ Subject<T>를 사용하면 이벤트 통지를 간단하게 쓸 수 있다고 �
 ![](/images/unity3d/2019-09-14-2.png)
 
 다음에, 조금전의 ObserveScript.cs를 다시 씁니다.
+```csharp
+using System;
+using System.Linq;
+using UniRx;
+using UnityEngine;
 
-    using System;
-    using System.Linq;
-    using UniRx;
-    using UnityEngine;
-    
-    public class ObserveScript : MonoBehaviour
+public class ObserveScript : MonoBehaviour
+{
+    /// <summary>
+    /// TargetCube를 묶는 GameObject
+    /// UnityEditor에서 설정해두자.
+    /// </summary>
+    public GameObject cubes;
+
+    private void Start()
     {
-        /// <summary>
-        /// TargetCube를 묶는 GameObject
-        /// UnityEditor에서 설정해두자.
-        /// </summary>
-        public GameObject cubes;
-    
-        private void Start()
-        {
-            // OnVisibleScript를 획득
-            var onVisibleScripts = cubes.GetComponentsInChildren<OnVisibleScript>();
-            
-            // Merge : 여러개의 OnVisibleObservable을 하나로 통합
-            var allOnVisibleObservable = Observable.Merge(onVisibleScripts.Select((x => x.OnVisibleObservable)));
-            
-            // 250ms 이내에 화면에 함께 찍힌 GameObject를 계산
-            allOnVisibleObservable
-                .Buffer(allOnVisibleObservable.Throttle(TimeSpan.FromMilliseconds(250)))
-                .Subscribe(x => Debug.Log(x.Count));
-        }
+        // OnVisibleScript를 획득
+        var onVisibleScripts = cubes.GetComponentsInChildren<OnVisibleScript>();
+        
+        // Merge : 여러개의 OnVisibleObservable을 하나로 통합
+        var allOnVisibleObservable = Observable.Merge(onVisibleScripts.Select((x => x.OnVisibleObservable)));
+        
+        // 250ms 이내에 화면에 함께 찍힌 GameObject를 계산
+        allOnVisibleObservable
+            .Buffer(allOnVisibleObservable.Throttle(TimeSpan.FromMilliseconds(250)))
+            .Subscribe(x => Debug.Log(x.Count));
     }
+}
+```
 
 이상입니다. 몇 줄 고쳐 쓴 것만으로 "동시에 화면에 찍힌 객체의 수를 세다"는 복잡한 처리를 할 수 있었습니다.
 
@@ -162,10 +164,11 @@ Subject<T>를 사용하면 이벤트 통지를 간단하게 쓸 수 있다고 �
 우선 Observable.Merge()를 사용하여 여러 스트림을 하나의 스트림인 allOnVisibleObservable로 합성하고 있습니다.
 
 Merge
-
-    // Merge : 여러개의 OnVisibleObservable을 하나로 통합
-    var allOnVisibleObservable = Observable
-    		.Merge(onVisibleScripts.Select((x => x.OnVisibleObservable))); 
+```csharp
+// Merge : 여러개의 OnVisibleObservable을 하나로 통합
+var allOnVisibleObservable = Observable
+        .Merge(onVisibleScripts.Select((x => x.OnVisibleObservable))); 
+```
 
 ![](/images/unity3d/2019-09-14-4.jpeg)
 
@@ -178,11 +181,12 @@ Throttle은 **마지막으로 값이 와서 일정 기간 경과**하면 발화�
 이번에는 **마지막에 값이 와서 250ms 초 이상 경과하면 Buffer를 해제** 했습니다. (즉, 250ms 이내에 화면에 비친 것은 동시에 비친 것으로 계산 됩니다)
 
 buffer
-
-    // 250ms 이내에 화면에 함께 찍힌 GameObject를 계산
-    allOnVisibleObservable
-        .Buffer(allOnVisibleObservable.Throttle(TimeSpan.FromMilliseconds(250)))
-        .Subscribe(x => Debug.Log(x.Count));
+```csharp
+// 250ms 이내에 화면에 함께 찍힌 GameObject를 계산
+allOnVisibleObservable
+    .Buffer(allOnVisibleObservable.Throttle(TimeSpan.FromMilliseconds(250)))
+    .Subscribe(x => Debug.Log(x.Count));
+```
 
 ![](/images/unity3d/2019-09-14-5.jpeg)
 

@@ -48,7 +48,7 @@ Unity 개발에서 플레이어 캐릭터를 만들 때 자주 사용되는 컴�
 
 IsGrounded는 엄격하게 딱 바닥에 접해 있지 않으면 true가 되지 않습니다.
 
-그래서 이 판정을 어느 정도 바닥에 가까우면 "지면에 젖ㅂ하고 있다"로 판정하도록 하려고 합니다.
+그래서 이 판정을 어느 정도 바닥에 가까우면 "지면에 접하고 있다"로 판정하도록 하려고 합니다.
 
 판정에 [Physics.Raycast](https://docs.unity3d.com/ScriptReference/Physics.Raycast.html) 라는 개체와의 충돌을 검사하는 API을 이용합니다.
 

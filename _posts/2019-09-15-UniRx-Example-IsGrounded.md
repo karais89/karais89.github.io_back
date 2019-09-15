@@ -36,7 +36,7 @@ Unity 개발에서 플레이어 캐릭터를 만들 때 자주 사용되는 컴�
 
 따라서 IsGrounded의 기준으로 점프 여부를 결정하면 점프를 하지 못하는 경우가 생길 수 있습니다.
 
-![](/images/unity3d/19-09-15-1.jpeg)
+![](/images/unity3d/2019-09-15-1.jpeg)
 
 (경사면을 이동중에는 isGrounded가 true/false가 격렬하게 변한다)
 
@@ -56,7 +56,7 @@ IsGrounded는 엄격하게 딱 바닥에 접해 있지 않으면 true가 되지 
 
 이 Raycast를 GameObject의 발밑에서 발사하고 Raycast가 지상과 충돌 여부에 지면에 접하고 있는지 판정해 보겠습니다.
 
-![](/images/unity3d/19-09-15-2.jpeg)
+![](/images/unity3d/2019-09-15-2.jpeg)
 
 (개체의 바닥에서 바로 밑에 Raycast를 쏘아서 충돌 여부를 판단)
 

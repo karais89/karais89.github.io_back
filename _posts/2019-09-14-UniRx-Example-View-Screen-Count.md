@@ -22,7 +22,7 @@ tags: [unity3d, unirx]
 
 이 포스팅은 원문을 단순히 구글 번역을 하여 정리한 내용입니다. 일본어를 잘하시는 분은 원문을 보시는게 더 좋으실 것 같습니다. 
 
-UniRx에 대한 기사 요약은 [여기](https://www.notion.so/karais89/UniRx-c3b7b66948534cc89bfc09951728af20)
+UniRx에 대한 기사 요약은 [여기](https://qiita.com/toRisouP/items/48b9fa25df64d3c6a392)
 
 ## Reactive Extensions이란?
 

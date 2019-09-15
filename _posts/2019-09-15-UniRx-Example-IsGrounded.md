@@ -109,7 +109,7 @@ public class CheckGroundedWithRx : MonoBehaviour
     {
         _characterController = GetComponent<CharacterController>();
         _characterController
-                        .ObserveEveryValueChanged(x => x.isGrounded)
+            .ObserveEveryValueChanged(x => x.isGrounded)
             .ThrottleFrame(5)
             .Subscribe(x => _isGrounded = x);
     }

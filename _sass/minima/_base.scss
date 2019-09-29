@@ -198,12 +198,7 @@ pre {
 }
 
 /* custom hr */
-hr {
-  box-sizing: initial;
-  display: block;
-  unicode-bidi: isolate;
-  margin-block-start: 0.5em;
-  margin-block-end: 0.5em;
-  margin-inline-start: auto;
-  margin-inline-end: auto;
+.markdown-body h1, .markdown-body h2 {
+  padding-bottom: .3em;
+  border-bottom: 1px solid #eaecef;
 }

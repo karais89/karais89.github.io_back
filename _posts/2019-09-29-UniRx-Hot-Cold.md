@@ -10,8 +10,6 @@ tags: [unity3d, unirx]
 
 ## 환경
 
----
-
 - macOS Mojave v10.14.6
 - Unity 2019.2.5f1
 - Github Desktop
@@ -36,12 +34,9 @@ Rx의 IObservable<T>는 Hot/Cold라는 큰 두가지 특징이 있습니다.
 
 ## 요약
 
----
 <br />
 
 ## 한마디로 말하면?
-
----
 
 - Cold: 스트림의 전후를 연결하는 파이프. 단독으로는 의미가 없다. 대부분의 오퍼레이터는 Cold이다.
 - Hot: 스트림에서 값을 계속 발행하는 수도꼭지. 항상 흐린다. 뒤에 파이프를 많이 연결 할 수 있다.
@@ -49,8 +44,6 @@ Rx의 IObservable<T>는 Hot/Cold라는 큰 두가지 특징이 있습니다.
 <br />
 
 ## 자세히 설명하면
-
----
 
 **Cold Observable**
 
@@ -69,8 +62,6 @@ Rx의 IObservable<T>는 Hot/Cold라는 큰 두가지 특징이 있습니다.
 
 ## Hot과 Cold 구분법
 
----
-
 **대부분의 오퍼레이터는 Cold인 성질이며, 자신이 명시적으로 스트림(stream)을 Hot으로 변환하지 않는 한 Cold 그대로 입니다.**
 
 Hot 변환용 오퍼레이터는 이른바 Publish 계의 오퍼레이터가 해당 합니다.
@@ -79,13 +70,10 @@ Hot 변환용 오퍼레이터는 이른바 Publish 계의 오퍼레이터가 해
 
 ## Hot에 대해
 
----
-
 <br />
 
 ## Hot Observable의 성질
 
----
 <br />
 
 ### 스트림을 가동시키는 성질
@@ -102,13 +90,9 @@ Hot Observable은 **스트림을 분기 할** 수 있습니다.
 
 ## Cold에 대해
 
----
-
 <br />
 
 ## Subscribe 될 때까지 작동하지 않는 성질
-
----
 
 Cold Observable은 Subscribe될때 (또는 Hot 변환될때)까지 작동하지 않습니다. ~~마음이 없는~~ Observable 입니다.
 
@@ -191,8 +175,6 @@ subject.OnCompleted();
 
 ## 각각의 Observer에 대해 별도의 처리를 한다 (스트림의 분기점이 되지 않는다.)
 
----
-
 Cold Observable은 스트림을 분기시키는 성질을 가지고 있지 않습니다.
 
 따라서 Cold Observable을 여러 Subscribe하는 경우 각각 **별도의 스트림이 생성되고 할당 될** 것입니다.
@@ -208,8 +190,6 @@ Cold Observable은 스트림을 분기시키는 성질을 가지고 있지 않�
 <br />
 
 ## 정리
-
----
 
 **스트림이 어디에서 분기 하는가?** 항상 의식하고 설계하는 것이 중요합니다.
 

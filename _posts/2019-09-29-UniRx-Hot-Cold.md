@@ -22,7 +22,7 @@ tags: [unity3d, unirx]
 
 이 포스팅은 원문을 단순히 구글 번역을 하여 정리한 내용입니다. 일본어를 잘하시는 분은 원문을 보시는게 더 좋으실 것 같습니다. 
 
-UniRx에 대한 기사 요약은 [여기](https://www.notion.so/karais89/UniRx-c3b7b66948534cc89bfc09951728af20)
+UniRx에 대한 기사 요약은 [여기](https://qiita.com/toRisouP/items/48b9fa25df64d3c6a392)
 
 ---
 
@@ -32,16 +32,21 @@ Rx의 IObservable<T>는 Hot/Cold라는 큰 두가지 특징이 있습니다.
 
 이번에는 이 Hot/Cold의 성격에 대해 간략하게 정리하고자 합니다.
 
+<br />
+
 ## 요약
 
 ---
+<br />
 
 ## 한마디로 말하면?
 
 ---
 
-- Cold: 스트림의 전후를 연결하면 파이프. 단독으로는 의마가 없다. 대략적인 오퍼레이터는 Cold이다.
+- Cold: 스트림의 전후를 연결하는 파이프. 단독으로는 의미가 없다. 대부분의 오퍼레이터는 Cold이다.
 - Hot: 스트림에서 값을 계속 발행하는 수도꼭지. 항상 흐린다. 뒤에 파이프를 많이 연결 할 수 있다.
+
+<br />
 
 ## 자세히 설명하면
 
@@ -60,6 +65,8 @@ Rx의 IObservable<T>는 Hot/Cold라는 큰 두가지 특징이 있습니다.
 - 자신보다 상류의 Cold Observable을 시작하고 값의 발행을 요구하는 기능을 가진다
 - 하류의 Observer를 모두 묶어, 정리해 같은 값을 발행한다 (스트림을 분기시킨다)
 
+<br />
+
 ## Hot과 Cold 구분법
 
 ---
@@ -68,17 +75,24 @@ Rx의 IObservable<T>는 Hot/Cold라는 큰 두가지 특징이 있습니다.
 
 Hot 변환용 오퍼레이터는 이른바 Publish 계의 오퍼레이터가 해당 합니다.
 
+<br />
+
 ## Hot에 대해
 
 ---
 
+<br />
+
 ## Hot Observable의 성질
 
 ---
+<br />
 
 ### 스트림을 가동시키는 성질
 
 Rx 스트림은 기본적으로 Subscribe가 된 순간에 각 오퍼레이터의 작동이 시작하게 되어 있습니다. 하지만 Hot Observable을 스트림 중간에 끼우는 것으로, Subscribe를 샐행 이전에 스트림을 실행시킬 수 있습니다.
+
+<br />
 
 ### 스트림을 분기하는 성질
 
@@ -89,6 +103,8 @@ Hot Observable은 **스트림을 분기 할** 수 있습니다.
 ## Cold에 대해
 
 ---
+
+<br />
 
 ## Subscribe 될 때까지 작동하지 않는 성질
 
@@ -126,6 +142,7 @@ subject.OnNext("C");
 // 완료
 subject.OnCompleted();
 ```
+
 실행결과
 
     C
@@ -170,6 +187,8 @@ subject.OnCompleted();
 
 `Publish` 라는 Hot 변환 연산자를 사이에 끼우는 것으로, Subscribe하는 이전에 스트림을 강제로 실행시킬 수 있습니다.
 
+<br />
+
 ## 각각의 Observer에 대해 별도의 처리를 한다 (스트림의 분기점이 되지 않는다.)
 
 ---
@@ -186,6 +205,8 @@ Cold Observable은 스트림을 분기시키는 성질을 가지고 있지 않�
 
 ![](/images/unity3d/2019-09-29-4.jpeg)
 
+<br />
+
 ## 정리
 
 ---
@@ -198,4 +219,4 @@ Cold Observable은 스트림을 분기시키는 성질을 가지고 있지 않�
 
 (Publish, PublishLast, Multicast 등)
 
-자세히 : [[Reactive Extensions] Hot 변환은 어떤 때에 필요한가?](https://www.notion.so/karais89/Reactive-Extensions-Hot-9b6f4f1b343c42919ee8fc2ac84f844f)
+자세히 : [[Reactive Extensions] Hot 변환은 어떤 때에 필요한가?](https://qiita.com/toRisouP/items/c955e36610134c05c860)

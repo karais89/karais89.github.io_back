@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Rx의 Hot과 Cold 대해"
-excerpt: "Rx의 Hot과 Cold 대해 번역"
-date: 2019-09-29 21:35:00 +0900
+title: "UniRx를 사용하여 Photon Cloud의 RoomList의 업데이트 모니터링"
+excerpt: "UniRx를 사용하여 Photon Cloud의 RoomList의 업데이트 모니터링 번역"
+date: 2019-09-30 22:40:00 +0900
 tags: [unity3d, unirx]
 ---
 * TOC

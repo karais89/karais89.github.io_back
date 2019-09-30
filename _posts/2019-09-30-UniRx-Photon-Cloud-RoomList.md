@@ -127,7 +127,7 @@ public class RoomListView : MonoBehaviour
     [SerializeField] private RoomListManager _roomListManager;
 
     private void Start() =>
-                // 방 정보가 업데이트 되었을 때 현재의 방의 개수를 콘솔에 출력한다.
+        // 방 정보가 업데이트 되었을 때 현재의 방의 개수를 콘솔에 출력한다.
         _roomListManager
             .OnRoomInfoChangedObservable
             .Subscribe(roomList =>
@@ -165,7 +165,9 @@ public class PhotonRoomListModel : MonoBehaviourPunCallbacks
     public override void OnRoomListUpdate(List<RoomInfo> roomList) =>
         RoomInfoReactiveProperty.Value = roomList;
 }
+```
 
+```csharp
 using UniRx;
 using UnityEngine;
 

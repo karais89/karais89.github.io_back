@@ -10,8 +10,6 @@ tags: [unity3d, unirx]
 
 ## 환경
 
----
-
 - macOS Mojave v10.14.6
 - Unity 2019.2.5f1
 - Github Desktop
@@ -32,6 +30,8 @@ UniRx에 대한 기사 요약은 [여기](https://qiita.com/toRisouP/items/48b9f
 - 그러나 현재 Trigger 동기화는 지원하지 않는다.
 - 어쩔 수 없기 때문에 Animator의 Bool을 사용하여 Trigger 기능을 재현한다.
 
+<br />
+
 ## 원래 "Trigger"는
 
 - 기본은 Bool과 같다
@@ -39,6 +39,8 @@ UniRx에 대한 기사 요약은 [여기](https://qiita.com/toRisouP/items/48b9f
 - 잠깐 작동하는 애니메이션 전환 등에 자주 사용 된다.
 
 **즉, Bool을 True로 설정하고 다음 프레임에서 False로 변환하면 Trigger과 같은 기능을 할 수 있다.**
+
+<br />
 
 ## 만들어 보았다
 
@@ -102,6 +104,7 @@ public class PlayerAnimationController : MonoBehaviour
     }
 }
 ```
+<br />
 
 ## 처리를 다음 프레임으로 미루는 방법
 
@@ -136,6 +139,8 @@ private void Start()
 
 [역주] 포스트에서는 1 프레임 후에 실행 결과가 2로 나오지만, 실제 실행시에 3으로 출력 됩니다. 이 부분은 확인이 필요할 것 같습니다.
 
+<br />
+
 ## 정리
 
 제대로 Trigger이 작동 하였습니다.
@@ -145,6 +150,8 @@ private void Start()
 참고로 이 방법으로 만든 Trigger (내용은 단순히 Bool)은 PhotonAnimatorView에 작동시켰는데, 제대로 작동하였습니다.
 
 단지 동기화 해주지 않는 타이밍이 있기 때문에 조사가 필요할 것 같습니다.
+
+<br />
 
 ## 15/03/29 추가
 

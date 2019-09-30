@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Animator의 Trigger를 Bool를 사용하여 재현하자"
-excerpt: "Animator의 Trigger를 Bool를 사용하여 재현하자 번역"
+title: "Animator의 Trigger를 Bool을 사용하여 재현하자"
+excerpt: "Animator의 Trigger를 Bool을 사용하여 재현하자 번역"
 date: 2019-09-30 22:50:00 +0900
 tags: [unity3d, unirx]
 ---

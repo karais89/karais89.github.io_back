@@ -144,8 +144,7 @@ code {
 pre {
   padding: 8px 12px;
   overflow-x: auto;
-  margin: 1.5em 0;
-  
+
   > code {
     border: 0;
     padding-right: 0;
@@ -153,7 +152,9 @@ pre {
   }
 }
 
-
+pre {
+  margin: 1.5em 0;
+}
 
 /**
  * Wrapper

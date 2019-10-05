@@ -199,7 +199,7 @@ pre {
 }
 
 /* Headings border line */
-h1, h2 {
+.post-content > h1, h2 {
   padding-bottom: .1em;
   border-bottom: 1px solid #ddd;
   margin-block-start: 0.83em;
@@ -208,7 +208,7 @@ h1, h2 {
   margin-bottom: 2.4rem;
 }
 
-hr {
+.post-content > hr {
   display: block;
   unicode-bidi: isolate;
   margin-block-start: 0.5em;

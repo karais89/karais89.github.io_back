@@ -10,8 +10,6 @@ tags: [unity3d, unirx]
 
 ## 환경
 
----
-
 - macOS Mojave v10.14.6
 - Unity 2019.2.5f1
 - Github Desktop
@@ -41,8 +39,6 @@ ObserveEveryValueChanged는 전체 클래스에 대한 확장 메서드로 정�
 - 대상이 UnityEngine.Object의 파생 개체 인 경우 Destroy시 OnCompleted가 스트림에 흐르게 된다.
 - MonoBehaviour 이외의 장소에서도 사용할 수 있다.
 
-<br />
-
 ## 사용 예) CharacterController.isGrounded를 감시한다.
 
 ObserveEveryValueChanged를 사용한 예
@@ -62,8 +58,6 @@ this.UpdateAsObservable()
             .Subscribe(_ => Debug.Log("OnGrounded!"));
 ```
 UpdateAsObservable().Select(_ => _characterController.isGrounded).DistinctUntilChanged() 부분이 없어 깔끔하게 코드를 작성 할 수 있었습니다.
-
-<br />
 
 ## 정리
 

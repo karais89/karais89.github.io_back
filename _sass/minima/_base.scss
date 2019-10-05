@@ -199,7 +199,8 @@ pre {
 }
 
 /* Headings border line */
-.post-content > h1, .post-content > h2 {
+.post-content > h1, 
+.post-content > h2 {
   padding-bottom: .1em;
   border-bottom: 1px solid #ddd;
   margin-block-start: 0.83em;
@@ -219,4 +220,19 @@ pre {
   border-style: inset;
   border-width: 1px;
   margin: 3em 0;
+}
+
+.post-content > img {
+  margin: 1.5em 0;
+}
+
+.post-content > pre,
+.post-content > code {
+  margin: 1.5em -32px;
+  margin-top: 1.5em;
+  margin-right: -32px;
+  margin-bottom: 1.5em;
+  margin-left: -32px;
+  padding: 1em 32px;
+  font-size: .9em;
 }

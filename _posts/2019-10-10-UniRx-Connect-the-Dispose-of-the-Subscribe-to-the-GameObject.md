@@ -10,8 +10,6 @@ tags: [unity3d, unirx]
 
 ## 환경
 
----
-
 - macOS Mojave v10.14.6
 - Unity 2019.2.5f1
 - Github Desktop

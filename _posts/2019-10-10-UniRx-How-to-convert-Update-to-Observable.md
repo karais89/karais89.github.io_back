@@ -82,7 +82,7 @@ public class UniRxSample : ObservableMonoBehaviour
 
 **설명**
 
-UpdateAsObservable는 내부적으로 Subject를 가지고 있으며, Update()시 OnNext를 호출하는 단순한 구조로되어 있습니다. ([해당란](https://github.com/neuecc/UniRx/blob/4.8.0/Assets/UniRx/Scripts/UnityEngineBridge/ObservableMonoBehaviour.cs#L758-L761))
+UpdateAsObservable는 내부적으로 Subject를 가지고 있으며, Update()시 OnNext를 호출하는 단순한 구조로되어 있습니다. ([해당란](https://github.com/neuecc/UniRx/blob/4.8.0/Assets/UniRx/Scripts/UnityEngineBridge/ObservableMonoBehaviour.cs#L752-L755))
 
 따라서 Update를 Override할 때 base.Update()의 호출을 제대로 추가해주지 않으면, UpdateAsObservable()는 작동하지 않기 때문에 주의가 필요합니다.
 

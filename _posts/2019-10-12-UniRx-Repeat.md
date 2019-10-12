@@ -91,15 +91,14 @@ OnCompleted가 발행되었을 때 다시 한번 같은 스트림을 Subscribe�
 
 ```cs
 var mouseMove = this.UpdateAsObservable()
-            .Select(_ => Input.mousePosition);
+                    .Select(_ => Input.mousePosition);
 var mouseDown = this.OnMouseDownAsObservable();
 var mouseUp = this.OnMouseUpAsObservable();
 
-mouseMove
-    .SkipUntil(mouseDown)
-    .TakeUntil(mouseUp)
-    .RepeatUntilDestroy(gameObject)
-    .Subscribe(pos => Debug.Log(pos.x));
+mouseMove.SkipUntil(mouseDown)
+         .TakeUntil(mouseUp)
+         .RepeatUntilDestroy(gameObject)
+         .Subscribe(pos => Debug.Log(pos.x));
 ```
 
 ## 용도 2) 오퍼레이터 상태를 초기화 하기
@@ -113,29 +112,28 @@ Rx 대부분의 오퍼레이터는 Subscribe시 생성되는 성질이 있습니
 5초 지나면 카운터를 다시 0으로 초기화
 ```cs
 Observable.Timer(TimeSpan.FromSeconds(1), TimeSpan.FromSeconds(1))
-    .Take(5)
-    .Repeat()
-    .Subscribe(time => Debug.Log(time));
+          .Take(5)
+          .Repeat()
+          .Subscribe(time => Debug.Log(time));
 ```
 
 클릭하면 타이머를 다시 0으로 초기화
 ```cs
 var mouseClick = this.UpdateAsObservable()
-            .Where(_ => Input.GetMouseButtonDown(0));
+                     .Where(_ => Input.GetMouseButtonDown(0));
 
 Observable.Timer(TimeSpan.FromSeconds(1), TimeSpan.FromSeconds(1))
-    .TakeUntil(mouseClick)
-    .Repeat()
-    .Subscribe(time => Debug.Log(time));
+          .TakeUntil(mouseClick)
+          .Repeat()
+          .Subscribe(time => Debug.Log(time));
 ```
 
 재설정 이벤트가 오면 Buffer를 지운다
 ```cs
-hogeStream
-    .Buffer(10)
-    .TakeUntil(resetStream)
-    .Repeat()
-    .Subscribe(data => Debug.WriteLine(data.Count));
+hogeStream.Buffer(10)
+          .TakeUntil(resetStream)
+          .Repeat()
+          .Subscribe(data => Debug.WriteLine(data.Count));
 ```
 
 TakeUntil + Repeat 또는 First + Repeat를 스트림 중간에 끼워 주는 것으로 언제라도 스트림을 초기화 할 수 있습니다.
@@ -211,9 +209,9 @@ var random = new Random();
 
 // 난수를 반환
 Observable.Return(random.Next())
-    .RepeatUntilDestroy(gameObject)
-    .Take(3)
-    .Subscribe(x => Debug.Log(x), () => Debug.Log("OnCompleted"));
+          .RepeatUntilDestroy(gameObject)
+          .Take(3)
+          .Subscribe(x => Debug.Log(x), () => Debug.Log("OnCompleted"));
 ```
 
 실행 결과
@@ -231,9 +229,9 @@ Observable.Return을 Repeat하면 Observable.Create 때와는 달리 항상 같�
 ```cs
 var random = new Random();
 Observable.Defer(() => Observable.Return(random.Next()))
-    .RepeatUntilDestroy(gameObject)
-    .Take(3)
-    .Subscribe(x => Debug.Log(x), () => Debug.Log("OnCompleted"));
+          .RepeatUntilDestroy(gameObject)
+          .Take(3)
+          .Subscribe(x => Debug.Log(x), () => Debug.Log("OnCompleted"));
 ```
 
 실행 결과

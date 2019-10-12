@@ -129,9 +129,9 @@ private void Start()
 }
 ```
 
-## Tuple을 사용한다. -
+## Tuple을 사용한다. - UniRx
 
-~~Tuple (튜플)을 사용하는 방법. 그러나 C# 표준 Tuple은 Unity에서 사용할 수 없습니다. UniRx는 UniRx.Tuple로 호환되는 것을 만들었습니다. Tuple을 사용한다면 UniRx를 도입하고 UniRx.Tuple을 사용합시다.~~
+Tuple(튜플)을 사용하는 방법. 그러나 C# 표준 Tuple은 Unity에서 사용할 수 없습니다. UniRx는 UniRx.Tuple로 호환되는 것을 만들었습니다. Tuple을 사용한다면 UniRx를 도입하고 UniRx.Tuple을 사용합시다.
 
 ```cs
 protected void Start()
@@ -159,7 +159,7 @@ private Tuple<bool, string> LoadData()
 }
 ```
 
-[net 4.0 이상 버전에서는 아예 UniRx.Tuple는 사용하지 못하고,](https://github.com/neuecc/UniRx/blob/7.1.0/Assets/Plugins/UniRx/Scripts/System/Tuple.cs#L7) C#에서 기본적으로 제공하는 Tuple을 사용해야 합니다.
+[역주] [net 4.0 이상 버전에서는 아예 UniRx.Tuple는 사용하지 못하고,](https://github.com/neuecc/UniRx/blob/7.1.0/Assets/Plugins/UniRx/Scripts/System/Tuple.cs#L7) C#에서 기본적으로 제공하는 Tuple을 사용해야 합니다.
 
 ## Tuple을 사용한다 - C# 7.0 이상
 
@@ -173,8 +173,8 @@ private void Start()
         Debug.Log(loadData);
     }
 
-        // 위와 같은 형태, 명시적으로 변수명 선언
-        var (isSuccesses, loadData2) = LoadData();
+    // 위와 같은 형태, 명시적으로 변수명 선언
+    var (isSuccesses, loadData2) = LoadData();
     if (isSuccesses)
     {
         Debug.Log(loadData2);

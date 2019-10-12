@@ -1,8 +1,7 @@
 ---
 layout: post
-title: "스크립트 처리 시점을 조작한다"
-excerpt: "스크립트 처리 시점을 조작한다 번역"
-date: 2019-10-12 09:04:00 +0900
+title: "[R[ReactiveExtensions] "Repeat"이란 무엇인가? 번역"
+date: 2019-10-12 10:47:00 +0900
 tags: [unity3d, unirx]
 ---
 * TOC

@@ -110,7 +110,7 @@ keyBufferStream.Where(x => x == "FUGA")
 따라서 상기와 같은 작성을 해 버리면 다음과 같은 문제가 발생할 수 있습니다.
 
 - 뒤에서 다중 스트림이 생성되어 버립니다. 메모리와 CPU를 낭비합니다.
-- Subscribe 한 시점에서 따라 흘러 나오는 결과가 다릅니다. ([참고 Cold Observable의 성질]({% post_url 2019-09-29-UniRx-Hot-Cold %})
+- Subscribe 한 시점에서 따라 흘러 나오는 결과가 다릅니다. ([참고 Cold Observable의 성질]({{site.baseurl}}/2019/09/29/UniRx-Hot-Cold/#subscribe-될-때까지-작동하지-않는-성질))
     - [역주] Cold Observable은 Subscribe 한 순간부터 오퍼레이터가 작동하게 됩니다. Subscribe 전에 온 메시지는 모든 처리 조차 되지 않고 소멸 됩니다.
 
 스트림이 2개로 흐른다는 증거

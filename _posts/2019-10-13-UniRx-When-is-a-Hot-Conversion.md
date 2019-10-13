@@ -105,7 +105,7 @@ keyBufferStream.Where(x => x == "FUGA")
 
 ## 무엇이 문제인가?
 
-상기 스트림은 무엇이 문제인가? 그것은 **keyBufferStream이 Cold Observable로 형성되는 것이 문제** 입니다. 이전의 포스트에서도 설명했지만, [Cold Observable은 분기하지 않습니다.]({% post_url 2019-09-29-UniRx-Hot-Cold#각각의-observer에-대해-별도의-처리를-한다-스트림의-분기점이-되지-않는다 %}) Subscribe 할 때마다 매번 새로운 스트림을 생성하는 특성이 있습니다.
+상기 스트림은 무엇이 문제인가? 그것은 **keyBufferStream이 Cold Observable로 형성되는 것이 문제** 입니다. 이전의 포스트에서도 설명했지만, [Cold Observable은 분기하지 않습니다.]({{site.baseurl}}/2019/09/29/UniRx-Hot-Cold/#각각의-observer에-대해-별도의-처리를-한다-스트림의-분기점이-되지-않는다)) Subscribe 할 때마다 매번 새로운 스트림을 생성하는 특성이 있습니다.
 
 따라서 상기와 같은 작성을 해 버리면 다음과 같은 문제가 발생할 수 있습니다.
 

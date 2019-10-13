@@ -107,12 +107,12 @@ keyBufferStream.Where(x => x == "FUGA")
 
 ---
 
-상기 스트림은 무엇이 문제인가? 그것은 **keyBufferStream이 Cold Observable로 형성되는 것이 문제** 입니다. 이전의 포스트에서도 설명했지만, [Cold Observable은 분기하지 않습니다.](https://qiita.com/toRisouP/items/f6088963037bfda658d3#%E3%81%9D%E3%82%8C%E3%81%9E%E3%82%8C%E3%81%AEobserver%E3%81%AB%E5%AF%BE%E3%81%97%E3%81%A6%E5%88%A5%E3%80%85%E3%81%AE%E5%87%A6%E7%90%86%E3%82%92%E3%81%99%E3%82%8B%E3%82%B9%E3%83%88%E3%83%AA%E3%83%BC%E3%83%A0%E3%81%AE%E5%88%86%E5%B2%90%E7%82%B9%E3%81%AB%E3%81%AA%E3%82%89%E3%81%AA%E3%81%84) Subscribe 할 때마다 매번 새로운 스트림을 생성하는 특성이 있습니다.
+상기 스트림은 무엇이 문제인가? 그것은 **keyBufferStream이 Cold Observable로 형성되는 것이 문제** 입니다. 이전의 포스트에서도 설명했지만, [Cold Observable은 분기하지 않습니다.]({% post_url 2019-09-29-UniRx-Hot-Cold/#각각의-observer에-대해-별도의-처리를-한다-스트림의-분기점이-되지-않는다 %}) Subscribe 할 때마다 매번 새로운 스트림을 생성하는 특성이 있습니다.
 
 따라서 상기와 같은 작성을 해 버리면 다음과 같은 문제가 발생할 수 있습니다.
 
 - 뒤에서 다중 스트림이 생성되어 버립니다. 메모리와 CPU를 낭비합니다.
-- Subscribe 한 시점에서 따라 흘러 나오는 결과가 다릅니다. ([참고 Cold Observable의 성질](https://qiita.com/toRisouP/items/f6088963037bfda658d3#subscribeされるまで動作しない))
+- Subscribe 한 시점에서 따라 흘러 나오는 결과가 다릅니다. ([참고 Cold Observable의 성질]({% post_url 2019-09-29-UniRx-Hot-Cold/#subscribe-될-때까지-작동하지-않는-성질 %})
     - [역주] Cold Observable은 Subscribe 한 순간부터 오퍼레이터가 작동하게 됩니다. Subscribe 전에 온 메시지는 모든 처리 조차 되지 않고 소멸 됩니다.
 
 스트림이 2개로 흐른다는 증거

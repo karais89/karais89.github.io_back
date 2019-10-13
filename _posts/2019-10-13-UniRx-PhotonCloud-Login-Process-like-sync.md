@@ -25,7 +25,7 @@ UniRx에 대한 기사 요약은 [여기](https://qiita.com/toRisouP/items/48b9f
 
 ---
 
-먼저 [[UniRx] UniRx와 코루틴](https://qiita.com/toRisouP/items/dc369ff4232c5c127437)을 읽어 주시면 이해하기 쉬울 것으로 생각 합니다.
+먼저 [[UniRx] UniRx와 코루틴]({% post_url 2019-10-13-UniRx-Coroutine %})을 읽어 주시면 이해하기 쉬울 것으로 생각 합니다.
 
 ## 시작하기
 
@@ -82,10 +82,9 @@ public class PhotonCallbacks : SingletonMonoBehaviour<PhotonCallbacks>
     {
         if (_connectToSeverResutlSubject != null) _connectToSeverResutlSubject.OnNext(new ConnectSeverFail(cause));
     }
-
     #endregion
+    
     #region Lobby
-
     /// <summary>
     /// 로비에 연결 한 것을 통지하는 Subject
     /// </summary>
@@ -111,7 +110,6 @@ public class PhotonCallbacks : SingletonMonoBehaviour<PhotonCallbacks>
         if (_onJoinedLobby != null)
             _onJoinedLobby.OnNext(Unit.Default);
     }
-
     #endregion
 }
 

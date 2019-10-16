@@ -67,7 +67,7 @@ PairWise/Buffer(2,1)에서 끝나는 곳을 Zip과 Skip(1)에서 쓰는 사람�
 ## Update()를 UniRx로 재 작성
 
 - [Update()를 Observable로 변환하는 방법]({% post_url 2019-10-10-UniRx-How-to-convert-Update-to-Observable %})
-- [ObserveEveryValueChanged 프레임간에 값의 변동을 감시하는]({% post_url 2019-10-05-UniRx-ObservableValueChanged %})
+- [ObserveEveryValueChanged 프레임간에 값의 변동을 감시하자]({% post_url 2019-10-05-UniRx-ObservableValueChanged %})
 
 UniRx를 도입하면 가장 먼저 해야 할 것 입니다. Update()의 재 작성 방법에 대해 정리해 보았습니다.
 
@@ -105,21 +105,19 @@ AddTo는 자주 사용하는 기능이므로 기억해야 합니다.
 
 ## PhotonCloud의 활용도를 높이는
 
-- [PhotonCloud의 RoomList의 업데이트 모니터링]({% post_url 2019-09-30-UniRx-Photon-Cloud-RoomList %})
-- [PhotonCloud 로그인 처리를 UniRx에서 동기처리 처럼 사용하기]({% post_url 2019-10-13-UniRx-PhotonCloud-Login-Process-like-sync %})
+- [UniRx를 사용하여 Photon Cloud의 RoomList의 업데이트 모니터링]({% post_url 2019-09-30-UniRx-Photon-Cloud-RoomList %})
+- [PhotonCloud 로그인 처리를 UniRx로 동기처리 처럼 쓰기]({% post_url 2019-10-13-UniRx-PhotonCloud-Login-Process-like-sync %})
 - [[PUN] PhotonCloud 콜백 처리를 UniRx로 지능적으로 쓴다 "PhotonRx"](https://qiita.com/toRisouP/items/10d9112eda30a0ba9278)
 
 PhotonRx는 Photon을 사용하기 쉽게 하기 위한 하나의 해결책 인 것 같습니다.
 
 ## 다른 구현 예
 
----
-
-- [동시에 화면에 비친 객체의 수를 세어 보니]({% post_url 2019-09-14-UniRx-Example-View-Screen-Count %})
+- [UniRx를 사용하여 동시에 화면에 비친 객체의 수를 세기]({% post_url 2019-09-14-UniRx-Example-View-Screen-Count %})
 - [UniRx에서 카운트 다운 타이머를 만들자]({% post_url 2019-09-29-UniRx-Count-Down-Timer %})
 - [Animator의 Trigger을 Bool을 사용하여 재현하자]({% post_url 2019-09-30-UniRx-Animator-Trigger-Bool %})
-- [StateMachineBehaviour에서 Animator를 감시하는]({% post_url 2019-10-05-UniRx-StateMachineBehaviour-Animator %})
-- [스크립트 처리의 실행 타이밍을 조작하는]({% post_url 2019-10-12-UniRx-Script-Processing-Time %})
+- [StateMachineBehaviour에서 Animator를 감시하자]({% post_url 2019-10-05-UniRx-StateMachineBehaviour-Animator %})
+- [스크립트 처리 시점을 조작한다]({% post_url 2019-10-12-UniRx-Script-Processing-Time %})
 - [FPS 카운터](https://qiita.com/toRisouP/items/1d0682e7a35cdb04bc38)
 
 "일단 시도 해 보았다" 정도의 포스트 입니다. 너무 깊게 받아들이지 마세요.

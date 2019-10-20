@@ -37,7 +37,7 @@ Buffer 오퍼레이터는 오버로드가 여러가지가 있는데 그 중 하�
 ```cs
 Observable.Range(1, 10)
           .Select(x => x.ToString())
-          .Buffer(2) // 2개 묶음 (방류한 뒤에 2개 건너뛰고 다음을 방류한다.         Buffer(2,2)와 동일)
+          .Buffer(2) // 2개 묶음 (방류한 뒤에 2개 건너뛰고 다음을 방류한다. Buffer(2,2)와 동일)
           .Subscribe(x =>
           {
               // buffer의 내용을 표시

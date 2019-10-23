@@ -69,7 +69,7 @@ private void Start()
     - 위 예에서는 mouseDownStream 스트림 자체를 Observable.Timer로 대체 한다고 생각하면 된다. (마우스 클릭 스트림이 발행된 이후 3초 후에 대한 스트림을 새로 만듬)
 - TakeUntil
     - 스트림의 메시지가 오면 OnCompleted를 통해 스트림을 종료시킨다.
-    - 위 예에서는 mouseUpStream이 발행되면 OnCompleted가 발행되고, Repeat가 실행되면서 다시 Subscribe 하게 되는 구조 ([Repeat란?]({% post_url 2019-10-12-UniRx-Repeat %})
+    - 위 예에서는 mouseUpStream이 발행되면 OnCompleted가 발행되고, Repeat가 실행되면서 다시 Subscribe 하게 되는 구조 ([Repeat란?]({% post_url 2019-10-12-UniRx-Repeat %}))
 - Timestamp
     - 스트림이 발행한 시간을 타임스탬프 값으로 반환한다.
 - Zip

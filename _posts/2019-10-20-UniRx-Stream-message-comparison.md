@@ -158,7 +158,7 @@ Observable.Range(1, 10)
 Observable.Range(1, 10)
           .Select(x => x.ToString())
           .Buffer(2, 1)
-          .Subscribe(x => Debug.Log(x.Aggregate<string>((p, c) => p.ToString        () + ", " + c.ToString())));
+          .Subscribe(x => Debug.Log(x.Aggregate<string>((p, c) => p.ToString() + ", " + c.ToString())));
 ```
 
 실행 결과

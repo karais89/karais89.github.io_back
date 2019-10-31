@@ -59,7 +59,6 @@ UniRx에서 "XX를 하고 싶지만 효율적인 방법을 모르겠어요!" 라
 | UnityEvent를 Observable로 변환하고자 할 때 | Observable.FromEvent * |  |
 | Update를 Observable로 변환하고자 할 때 | Observable.EveryUpdate * | 실제로는 MainThreadDispatcher에서 코루틴이 실행됨 / OnCompleted는 발행되지 않으므로 수명 관리에 주의 / 평상시라면 UpdateAsObservable이 더 낫다 |
 | FixedUpdate를 Observable로 변환하고자 할 때 | Observable.FixedEveryUpdate * | 실제로는 MainThreadDispatcher에서 코루틴이 실행됨 / OnCompleted는 발행되지 않으므로 수명 관리에 주의 / 평상시라면 FixedUpdateAsObservable이 더 낫다 |
-|  |  |  |
 
 ## 메시지 필터
 
@@ -94,10 +93,7 @@ UniRx에서 "XX를 하고 싶지만 효율적인 방법을 모르겠어요!" 라
 |복수의 Observable을 1개에 정리하고 싶다 | Merge | |
 |Observable의 OnCompleted 시 다른 Observable을 연결하고 싶다. | Concat | |
 |Observable 값을 사용하여 별도의 Observable을 만들고 각각의 값을 합성하고자 한다. | SelectMany* | 다른 언어에서는 "flat Map" 이라 불린다. |
-|여러 개의 Observable을 성공할 때까지 차례로 실행하고 싶다. | Observable.Catch | Catch(IEnumerable<IObservable<T>>)를 사용하면 차례로 성공할 때까지 1개씩 시행한다
- |
-
-
+|여러 개의 Observable을 성공할 때까지 차례로 실행하고 싶다. | Observable.Catch | Catch(IEnumerable<IObservable<T>>)를 사용하면 차례로 성공할 때까지 1개씩 시행한다 |
 
 ## Observable 자체 변환
 

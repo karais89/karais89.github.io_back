@@ -10,8 +10,6 @@ tags: [unity3d, unirx]
 
 ## 환경
 
----
-
 - macOS Mojave v10.14.6
 - Unity 2019.2.5f1
 - Github Desktop
@@ -26,7 +24,7 @@ UniRx에 대한 기사 요약은 [여기](https://qiita.com/toRisouP/items/48b9f
 
 ---
 
-UniRx에서 "XX를 하고 싶지만 효율적인 방법을 모르겠어요!" 라고 하는 분들을 위해 UniRx에서 할 수 있는 것을 역으로 정리해 보았습니다.
+UniRx에서 "XX를 하고 싶지만 효율적인 방법을 모르겠어요!" 라고 하는 분들을 위해 UniRx에서 사용할 수 있는 오퍼레이터를 정리해 보았습니다.
 
 ## 전제
 
@@ -128,7 +126,7 @@ UniRx에서 "XX를 하고 싶지만 효율적인 방법을 모르겠어요!" 라
 | 메시지의 값과 이전 결과를 모두 사용 함수를 적용 할 | Scan | LINQ에서 말하는 Aggregate |  |
 | 메시지를 일정 개수마다 정리하고 싶다 | Buffer * | 2번째 인수를 지정함으로써 동작이 바뀐다→상세. |  |
 | 어떤 Observable에 메시지가 올 때까지 값을 막아 정리해 두고 싶다. | Buffer* | 인수에 Observable을 건네준다. |  |
-| 직전의 메세지와 세트로 하고 싶다. | PairWise | "Bufer(2 | 1)와 비슷하다" |
+| 직전의 메세지와 세트로 하고 싶다. | PairWise | "Bufer(2,1)와 비슷하다" |
 
 ## 메시지 변환
 
@@ -160,14 +158,13 @@ UniRx에서 "XX를 하고 싶지만 효율적인 방법을 모르겠어요!" 라
 ## 비동기 처리
 
 | ﻿하고 싶은 일 | 오퍼레이터 | 비고 |
-|-----------------------------------------------------------------------|---------------------------------------|-----------------------------------------------------|
+|---------------|-----------|------|
 | 처리를 다른 스레드에서 수행 하고 싶다 | Observable.ToAsync / Observable.Start | ToAsync를 사용한 경우 Invoke를 호출하여 처리가 시작 |
 | Observable의 메시지 처리 스레드를 전환하고싶다 | ObserveOn |  |
 | Observable의 메시지 처리 스레드를 Unity의 메인 스레드로 전환하고 싶다 | ObserveOnMainThread | 다른 스레드에서 Unity 처리를 호출 할 때 필수 |
 | Observable 구축의 실행 스레드를 전환하고 싶다 | SubscribeOn |  |
 | Observable 결과를 코루틴에서 기다리고 싶다 | ToYieldInstruction | 편리해서 기억하고 싶은 |
-| 비동기 처리를 연쇄시키고 싶다 | ContinueWith | SelectMany의 단발 판 |
-ObserveOn과 SubscribeOn이 까다롭기에 주의가 필요합니다.
+| 비동기 처리를 연쇄시키고 싶다 | ContinueWith | SelectMany의 단발 판 | ObserveOn과 SubscribeOn이 까다롭기에 주의가 필요합니다. |
 
 Subscribe On은 "**Subscribe 한 순간의 Observable을 구축하는 처리**를 어느 스레드 상에서 실행할 것인가"를 지정하는 오퍼레이터입니다.
 

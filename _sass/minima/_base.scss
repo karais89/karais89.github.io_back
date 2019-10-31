@@ -225,41 +225,31 @@ pre {
   margin: 3em 0;
 }
 
-.post-content table {
-  display: block;
-  overflow: auto;
-  margin: 1.5em 0;
-  border: 1px solid 
-  #ddd;
-  border-collapse: collapse;
+/* qiita table css */
+.it-MdContent table {
+  display:block;
+  overflow:auto;
+  margin:1.5em 0;
+  border-left:1px solid #ddd;
+  border-collapse:collapse
 }
 
-.post-content th {
-  font-weight: 700;
-  background-color: 
-#fff;
-border-top: 1px solid
-#ddd;
-  border-top-color: 
-  rgb(221, 221, 221);
-  border-top-style: solid;
-  border-top-width: 1px;
-border-bottom: 1px solid
-#ccc;
-  border-bottom-color: 
-  rgb(204, 204, 204);
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
-border-right: 1px solid
-#ccc;
-  border-right-color: 
-      rgb(204, 204, 204);
-      border-right-style: solid;
-      border-right-width: 1px;
-  padding: 8px 10px;
+.it-MdContent tr:nth-child(odd) {
+  background-color:#eee
 }
 
-.post-content tr:nth-child(2n+1) {
-  background-color: 
-  #eee;
+.it-MdContent th {
+  font-weight:700;
+  background-color:#fff;
+  border-top:1px solid #ddd;
+  border-bottom:1px solid #ccc;
+  border-right:1px solid #ccc;
+  padding:8px 10px;
+}
+
+.it-MdContent td {
+  border-bottom:1px solid #ccc;
+  border-right:1px solid #ccc;
+  padding:8px 10px;
+  max-width:600px
 }

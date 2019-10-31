@@ -225,11 +225,16 @@ pre {
   margin: 3em 0;
 }
 
-.post-content > table {
+.post-content table {
   display: block;
   overflow: auto;
   margin: 1.5em 0;
-  border-left: 1px solid 
+  border: 1px solid 
   #ddd;
   border-collapse: collapse;
+}
+
+.post-content tr:nth-child(2n+1) {
+  background-color: 
+  #eee;
 }

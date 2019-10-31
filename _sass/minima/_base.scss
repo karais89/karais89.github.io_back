@@ -226,7 +226,7 @@ pre {
 }
 
 /* qiita table css */
-.it-MdContent table {
+.post-content table {
   display:block;
   overflow:auto;
   margin:1.5em 0;
@@ -234,11 +234,11 @@ pre {
   border-collapse:collapse
 }
 
-.it-MdContent tr:nth-child(odd) {
+.post-content tr:nth-child(odd) {
   background-color:#eee
 }
 
-.it-MdContent th {
+.post-content th {
   font-weight:700;
   background-color:#fff;
   border-top:1px solid #ddd;
@@ -247,7 +247,7 @@ pre {
   padding:8px 10px;
 }
 
-.it-MdContent td {
+.post-content td {
   border-bottom:1px solid #ccc;
   border-right:1px solid #ccc;
   padding:8px 10px;

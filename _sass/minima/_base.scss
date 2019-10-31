@@ -234,6 +234,31 @@ pre {
   border-collapse: collapse;
 }
 
+.content th {
+  font-weight: 700;
+  background-color: 
+#fff;
+border-top: 1px solid
+#ddd;
+  border-top-color: 
+  rgb(221, 221, 221);
+  border-top-style: solid;
+  border-top-width: 1px;
+border-bottom: 1px solid
+#ccc;
+  border-bottom-color: 
+  rgb(204, 204, 204);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+border-right: 1px solid
+#ccc;
+  border-right-color: 
+      rgb(204, 204, 204);
+      border-right-style: solid;
+      border-right-width: 1px;
+  padding: 8px 10px;
+}
+
 .post-content tr:nth-child(2n+1) {
   background-color: 
   #eee;

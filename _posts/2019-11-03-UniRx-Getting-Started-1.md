@@ -32,7 +32,7 @@ tags: [unity3d, unirx]
 
 (여유가 있을 때 작성되기 때문에 부정기 연재가 되지 않을까 생각합니다만 작 부탁드립니다)
 
-## 0. 소개 "UniRx 이란?"
+## 0. 소개 "UniRx 란?"
 
 UniRx는 [neuecc](https://twitter.com/neuecc) 님이 작성한 **Reactive Extensions for Unity 라이브러리** 입니다.
 
@@ -41,7 +41,7 @@ Reactive Extensions (이하 Rx)는 요점만 말하면 다음과 같은 라이�
 - [MiscrosoftResearch](https://ko.wikipedia.org/wiki/%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C%EC%86%8C%ED%94%84%ED%8A%B8_%EB%A6%AC%EC%84%9C%EC%B9%98)가 개발하고 있던 C#용 비동기 처리를 위한 라이브러리
 - 디자인 패턴 중 하나인 [Observer 패턴](https://ko.wikipedia.org/wiki/%EC%98%B5%EC%84%9C%EB%B2%84_%ED%8C%A8%ED%84%B4)을 기반으로 설계되어 있다.
 - 시간에 관련된 처리 및 실행 타이밍이 중요한 곳에서 처리를 쉽게 작성할 수 있도록 되어 있다.
-- 완성도가 높고, Java, JavaScript, Swift 등 다양한 언어로 포팅되어 있다.
+- 완성도가 높고 Java, JavaScript, Swift 등 다양한 언어로 포팅되어 있다.
 
 UniRx는 Rx를 기반으로 Unity에 이식된 라이브러리이며, 본가 .NET Rx에 비해 다음과 같은 차이가 있습니다.
 
@@ -334,24 +334,24 @@ subject.Subscribe(msg => Debug.Log("Subscribe1:" + msg));
 Subscribe 생략 호출 예
 
 ```cs
-    // OnNext만
-    subject.Subscribe(msg => Debug.Log("Subscribe1:" + msg));
-    
-    // OnNext & OnError
-    subject.Subscribe(
-        msg => Debug.Log("Subscribe1:" + msg),
-        error => Debug.LogError("Error" + error));
-    
-    // OnNext & OnCompleted
-    subject.Subscribe(
-        msg => Debug.Log("Subscribe1:" + msg),
-        () => Debug.Log("Completed"));
-    
-    // OnNext & OnError & OnCompleted
-    subject.Subscribe(
-        msg => Debug.Log("Subscribe1:" + msg),
-        error => Debug.LogError("Error" + error),
-        () => Debug.Log("Completed"));
+// OnNext만
+subject.Subscribe(msg => Debug.Log("Subscribe1:" + msg));
+
+// OnNext & OnError
+subject.Subscribe(
+    msg => Debug.Log("Subscribe1:" + msg),
+    error => Debug.LogError("Error" + error));
+
+// OnNext & OnCompleted
+subject.Subscribe(
+    msg => Debug.Log("Subscribe1:" + msg),
+    () => Debug.Log("Completed"));
+
+// OnNext & OnError & OnCompleted
+subject.Subscribe(
+    msg => Debug.Log("Subscribe1:" + msg),
+    error => Debug.LogError("Error" + error),
+    () => Debug.Log("Completed"));
 ```
 
 ## Subject의 정의를 확인
@@ -359,10 +359,10 @@ Subscribe 생략 호출 예
 여기서 조금 전까지 사용했던 Subject 클래스를 살펴 봅시다.
 
 ```cs
-    namespace UniRx
-    {
-        public sealed class Subject<T> : ISubject<T>, IDisposable, IOptimizedObservable<T> {/*구현부 생략*/}
-    }
+namespace UniRx
+{
+    public sealed class Subject<T> : ISubject<T>, IDisposable, IOptimizedObservable<T> {/*구현부 생략*/}
+}
 ```
 
 Subject는 여러 인터페이스로 구현되어 있는 것 같습니다만, 이중 하나인 `ISubject<T>`의 정의를 살펴 봅시다.
@@ -426,11 +426,11 @@ private void Start()
     플레이어가 Enemy에 충돌했습니다.
     플레이어가 Enemy에 충돌했습니다.
 
-그런데, 위와 같이 이벤트가 발생되는 Subject가 있을 때 "Enemey에 닿을 때만 출력하고 싶다!"라고 하겠습니다.
+그런데, 위와 같이 이벤트가 발생되는 Subject가 있을 때 "Enemy에 닿을 때만 출력하고 싶다!"라고 가정 하겠습니다.
 
 이 정도라면 Subscribe에 if문을 쓰는 것으로 구현할 수 있지만, 그러면 이야기 진행이 되지 않기 때문에 다른 방법을 생각해 보기로 하겠습니다.
 
-### Subject와 Subscribe 사이에  "필터링 처리"를 끼울 수 있을까?
+### Subject와 Subscribe 사이에 "필터링 처리"를 끼워 넣을 수 있을까?
 
 아까도 말했지만 값을 발행하는 처리는 IObserver에, 가입 처리는 IObservable에 각각 정의되어 있습니다.
 
@@ -484,7 +484,7 @@ UniRx에는 Where 이외에도 많은 오퍼레이터가 준비되어 있습니�
 
 위 오퍼레이터는 정말 많은 오퍼레이터 중 극히 일부에 지나지 않습니다.
 
-[UniRx가 제공하는 모든 오퍼레이터 목록](https://qiita.com/toRisouP/items/3cf1c9be3c37e7609a2f)은 다른 포스트에 정의하고 있기 때문에 그쪽의 페이지를 참조하십시오.
+[UniRx가 제공하는 모든 오퍼레이터 목록]({% post_url 2019-10-31-UniRx-Operator %})은 다른 포스트에 정의하고 있기 때문에 그쪽의 페이지를 참조하십시오.
 
 ## 6. "스트림"
 
@@ -492,7 +492,7 @@ UniRx에는 Where 이외에도 많은 오퍼레이터가 준비되어 있습니�
 
 UniRx에서 "스트림"은 **"메시지가 발행된 후 Subscribe에 도달 할때까지의 일련의 처리 흐름"**을 표현하는 단어 입니다.
 
-"오퍼레이터를 결합하여 스트림을 구축", "Subscribe하여 스트림을 실행한다", "OnCompleted를 발행하여 스트림을 정시킨다"등으로 사용 됩니다.
+"오퍼레이터를 결합하여 스트림을 구축", "Subscribe하여 스트림을 실행한다", "OnCompleted를 발행하여 스트림을 정지시킨다"등으로 사용 됩니다.
 
 앞으로 이 "스트림"이라는 표현은 많이 사용하기 때문에 기억 해 둡시다.
 
@@ -638,7 +638,7 @@ UniRx를 사용하다 보면, lock나 try catch문 등을 심심치 않게 보�
 
 ## 사용성을 고려하여 확장 메서드 작성
 
-이대로 오퍼레이터를 사용한다면 일일이 인스턴스화 해줘야 되서 사용성이 상당히 나쁘기 때문에 오퍼레이터 체인으로 Filter를 사용할수 있도록 확장 메서드를 만들었습니다.
+이대로 오퍼레이터를 사용한다면 일일이 인스턴스화 해줘야 되서 사용성이 상당히 나쁘기 때문에 오퍼레이터 체인으로 Filter를 사용할 수 있도록 확장 메서드를 만들었습니다.
 
 ```cs
 using System;

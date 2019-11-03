@@ -2,7 +2,7 @@
 layout: post
 title: "UniRx 입문 1"
 excerpt: "UniRx 입문 1 번역"
-date: 2019-10-31 08:31:00 +0900
+date: 2019-11-03 08:31:00 +0900
 tags: [unity3d, unirx]
 ---
 * TOC

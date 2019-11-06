@@ -261,7 +261,7 @@ subject.OnCompleted();
 
 ## Subscribe의 오버로드
 
-[UniRx 입문 그 1]({% post_url 2019-11-03-UniRx-Getting-Started-1 %}) 에서 Subscribe에는 여러 오버로드가 존재한다고 설명했습니다.
+[UniRx 입문 1]({% post_url 2019-11-03-UniRx-Getting-Started-1 %}) 에서 Subscribe에는 여러 오버로드가 존재한다고 설명했습니다.
 
 실제로는 다음 조합의 오버로드가 준비되어 있고, 이용하고 싶은 메시지에 맞게 선택하면 좋을 것 같습니다.
 

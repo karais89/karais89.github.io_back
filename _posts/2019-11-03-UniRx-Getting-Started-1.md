@@ -683,4 +683,4 @@ private void Start()
 
 이와 같이 **"IObserver와 IObservable의 두 가지를 구현한 클래스를 준비하고 사이에 끼워 넣으면 오퍼레이터로서 동작하여 메시지 처리가 가능하다"**를 이해하게 되었습니다. 
 
-[입문 2](https://qiita.com/toRisouP/items/851087b4c990d87641e6)
+[입문 2]({% post_url 2019-11-06-UniRx-Getting-Started-2 %})

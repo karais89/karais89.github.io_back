@@ -159,13 +159,13 @@ var stringSubject = new Subject<string>();
 stringSubject
     .Select(str => int.Parse(str)) // 숫자를 표현하는 문자열이 아닌 경우는 예외가 나온다 
     .Subscribe(
-        x => Debug.Log("성공:" + x), // OnNext생
-        ex => Debug.Log("예외가 발:" + ex) //생 OnError
+        x => Debug.Log("성공:" + x), // OnNext
+        ex => Debug.Log("예외가 발생:" + ex) // OnError
     );
 
 stringSubject.OnNext("1");
 stringSubject.OnNext("2");
-stringSubject.OnNext("Hello"); // 이 메시지에서 예외가 발
+stringSubject.OnNext("Hello"); // 이 메시지에서 예외가 발생 한다.
 stringSubject.OnNext("4");
 stringSubject.OnCompleted();
 ```

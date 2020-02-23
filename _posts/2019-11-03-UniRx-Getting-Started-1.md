@@ -20,7 +20,7 @@ tags: [unity3d, unirx]
 
 이 포스팅은 원문을 단순히 구글 번역을 하여 정리한 내용입니다. 일본어를 잘하시는 분은 원문을 보시는게 더 좋으실 것 같습니다. 
 
-[UniRx 입문 시리즈 목차는 이쪽](https://qiita.com/toRisouP/items/00b8a5bb8e7b68e0686c)
+[UniRx 입문 시리즈 목차는 이쪽]({% post_url 2019-11-17-UniRx-Getting-Started-List %})
 
 ---
 

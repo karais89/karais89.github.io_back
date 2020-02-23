@@ -25,7 +25,7 @@ tags: [unity3d, unirx]
 - [UniRx 입문 1]({% post_url 2019-11-03-UniRx-Getting-Started-1 %})
 - [UniRx 입문 2 - 메시지의 종류 / 스트림의 수명]({% post_url 2019-11-06-UniRx-Getting-Started-2 %})
 - [UniRx 입문 3 - 스트림 소스를 만드는 방법]({% post_url 2019-11-10-UniRx-Getting-Started-3 %})
-- [UniRx 입문 4 - Update를 스트림으로 변환하는 방법 및 장점](http://qiita.com/toRisouP/items/30c576c7b0a99f41fb87)
+- [UniRx 입문 4 - Update를 스트림으로 변환하는 방법 및 장점]({% post_url 2020-02-23-Getting-Started-4 %})
 - [UniRx 입문 5 - 코루틴과 함께](http://qiita.com/toRisouP/items/c4b9c5701dd6c991b481)
 
 ---

@@ -10,8 +10,6 @@ tags: [unity3d, unirx]
 
 ## 환경
 
----
-
 - macOS Catalina v10.15
 - Unity 2019.2.10f1
 - Github Desktop
